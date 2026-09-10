@@ -1,0 +1,42 @@
+# OnPair-GPU GPU-decode run environment
+date_utc:    2026-07-27T17:48:56Z
+host:        <redacted-ephemeral-host>
+vortex_rev:  fe4a84d65
+
+## GPU (name, mem, compute capability, driver)
+name, memory.total [MiB], compute_cap, driver_version
+NVIDIA A100-SXM4-40GB, 40960 MiB, 8.0, 580.159.03
+
+## nvidia-smi
+Mon Jul 27 17:48:57 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.159.03             Driver Version: 580.159.03     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  |   00000000:00:04.0 Off |                    0 |
+| N/A   33C    P0             43W /  400W |       0MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+## nvcc
+/home/ubuntu/work/onpair-bench.sh: line 44: nvcc: command not found
+nvcc not on PATH yet
+
+## CPU / memory
+nproc: 12
+CPU(s):                                  12
+Model name:                              Intel(R) Xeon(R) CPU @ 2.20GHz
+               total        used        free      shared  buff/cache   available
+Mem:            83Gi       1.3Gi        82Gi       1.0Mi       575Mi        82Gi
+Swap:             0B          0B          0B

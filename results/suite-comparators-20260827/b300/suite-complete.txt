@@ -1,0 +1,6 @@
+vortex_rev: 876c062b2e7cc69729339e0c1f1829cfdec0fe78
+columns: 15
+training_seed: 20260819
+stages_requested: DE
+clocks: boost:full
+stage_DE_rc: 0

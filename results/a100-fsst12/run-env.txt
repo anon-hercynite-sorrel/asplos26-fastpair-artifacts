@@ -1,0 +1,9 @@
+# FastPair: FSST-12 (HF columns) + split-vs-stride16 NCU capture
+date_utc:   2026-08-13T05:22:58Z
+host:       <redacted-ephemeral-host>
+vortex_rev: 2d909147f
+
+name, memory.total [MiB], compute_cap, driver_version
+NVIDIA A100-SXM4-40GB, 40960 MiB, 8.0, 580.173.02
+_run.sh: line 43: nvcc: command not found
+nproc: 12

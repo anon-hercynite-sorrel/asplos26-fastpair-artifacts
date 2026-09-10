@@ -1,0 +1,8 @@
+{
+  "harness_base_commit": "f6d81878715bf322a0917ada32bcf40adffbd3ef",
+  "paths": {
+    "vortex-cuda/kernels/src/onpair_decompress_tpt.cuh": "65aea840be0bd8e1a9fea279e7e8b9bc6689c0e11c035e2d95d9a260ad0036ec",
+    "benchmarks/onpair-bench/op_gpu_regen.cu": "4b45b8373c8dee2ffd07d0fa89ee3837650dfa9116fabaf817ad143680748111"
+  },
+  "standalone_driver_sha256": "de8a5c6f789403e4d7caee866a4a4452a231dcf916eb38bc2d3ed451e00198ea"
+}

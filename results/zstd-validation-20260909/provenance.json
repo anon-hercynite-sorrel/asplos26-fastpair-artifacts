@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-09",
+  "device": "NVIDIA B300",
+  "requested_sm_clock_mhz": 2032,
+  "observed_sm_clock_mhz": 1905,
+  "historical_harness_revision": "876c062b2e7cc69729339e0c1f1829cfdec0fe78",
+  "cpu_zstd_version": "1.5.7",
+  "nvcomp_version": "5.1.0.21 (CUDA 12)",
+  "standalone_source_sha256": "cdd3b02c05a32b9fa46f4d6d07805bc0979bb9e7df1674676f204ac4aec73d0e",
+  "scope": "Two framings of one Windows level19, 271-values/frame configuration; four blocks of 100 timings each. Does not validate all historical cells.",
+  "timing": "CUDA events around nvCOMP decode only; preparation and checks outside events."
+}

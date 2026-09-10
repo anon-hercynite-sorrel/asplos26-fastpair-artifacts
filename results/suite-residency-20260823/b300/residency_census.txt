@@ -1,0 +1,12 @@
+windows_onpair_dg_k6_t256_b1 OK
+windows_onpair_dg_k6_t256_b4 OK
+windows_onpair_dg_k6_t256_b8 OK
+windows_onpair_ds_k6_t128_b4_s10 FAIL rc=1
+windows_onpair_ds_k6_t128_b4_s12 OK
+windows_onpair_ds_k6_t128_b4_s14 OK
+wikipedia_onpair_dg_k6_t256_b1 OK
+wikipedia_onpair_dg_k6_t256_b4 OK
+wikipedia_onpair_dg_k6_t256_b8 OK
+wikipedia_onpair_ds_k6_t128_b4_s10 OK
+wikipedia_onpair_ds_k6_t128_b4_s12 OK
+wikipedia_onpair_ds_k6_t128_b4_s14 OK

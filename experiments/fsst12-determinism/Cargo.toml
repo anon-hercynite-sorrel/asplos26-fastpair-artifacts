@@ -1,0 +1,11 @@
+[package]
+name = "fsstdet"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+# Vendored at vendor/fsst-rs (upstream fsst-rs, Apache-2.0), so this builds with no network fetch.
+fsst12 = { package = "fsst-rs", path = "vendor/fsst-rs" }
+
+[profile.release]
+debug = false

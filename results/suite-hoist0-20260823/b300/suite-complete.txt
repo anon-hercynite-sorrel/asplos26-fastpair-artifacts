@@ -1,0 +1,9 @@
+vortex_rev: dd2325b3f3305f8b2486972aff9eaef2db8b89aa
+columns: 1
+training_seed: 20260819
+stages_requested: MATERIALIZE GRID
+clocks: boost:full
+partial_corpus: 1 of 15 requested: 1
+partial_corpus_labels: windows
+stage_GRID_boost_rc: 0
+stage_MATERIALIZE_rc: 0

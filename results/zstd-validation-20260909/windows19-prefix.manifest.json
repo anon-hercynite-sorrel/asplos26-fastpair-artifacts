@@ -1,0 +1,21 @@
+{
+  "framing": "prefix",
+  "level": 19,
+  "values_per_frame": 271,
+  "rows": 4139945,
+  "frames": 15277,
+  "payload_bytes": 999999899,
+  "actual_decoded_bytes": 1016559679,
+  "compressed_bytes": 53516006,
+  "payload_compression_ratio": 18.685996466178736,
+  "frame_min_bytes": 23173,
+  "frame_max_bytes": 106395,
+  "zstd_version": "1.5.7",
+  "cpu_compress_seconds": 329.9531430020015,
+  "payload_sha256": "3d23f57e7e19710603c91e58ca19c7c54c5a643031bf68d4af5a42bec34e1d23",
+  "lengths_sha256": "9ef5636b619ea7e04bf30f1926168c61712b6282271d1e6757c377c2cd84dcaf",
+  "archive_sha256": "8b3e838b5aaf7727913d8a0a79cf8e22ce68a410cb05803ee572e42bee017ab2",
+  "expected_sha256": "3bb61a48678ba88b07d82593fc8cbd4bb2b17e196b6431ffdf77854b6c88194f",
+  "historical_windows_level19_vpf271_compressed_bytes": 53516006,
+  "matches_historical_compressed_byte_count": true
+}

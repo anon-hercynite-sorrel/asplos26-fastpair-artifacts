@@ -1,0 +1,196 @@
+vortex_rev: 94905b572340e890eb6fa131b2ca0129b8792296
+training_seed: 20260819
+kernel_order_seed: 20260819
+stages: MATERIALIZE GRID DE ZSTD FSST LADDER
+clocks: boost:full max:full 75%:prod 55%:prod 40%:prod
+NVIDIA H100 80GB HBM3, 1980 MHz, 2619 MHz, 9.0
+throttle_field: clocks_event_reasons.active
+--- box facts
+NVIDIA H100 80GB HBM3, Enabled, Enabled, Enabled, Disabled, [Requested functionality has been deprecated], 580.126.09, 96.00.A5.00.01
+power_limits(limit,enforced,min,max): 700.00 W, 700.00 W, 200.00 W, 700.00 W
+compute_procs: 
+mem_pin: 2619 MHz
+policy_boost_released_at: 10:14:42
+locked_sm_mhz: none (boost/floating)
+sample: 1980 MHz, 2619 MHz, 43, 135.75 W, 0x0000000000000000  throttle=ok
+soak_boost: 43C -> 42C in 30s (flat for 30s of 30s required)
+soak_boost_curve_c: 43,42,42,42,42,42
+sample[post-soak-boost]: 345 MHz, 2619 MHz, 42, 73.78 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-boost-fineweb2-pre]: 345 MHz, 2619 MHz, 42, 73.83 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-boost-fineweb2-post]: 1980 MHz, 2619 MHz, 56, 389.76 W, 0x0000000000000000  throttle=ok
+sample[grid-boost-wikipedia-pre]: 345 MHz, 2619 MHz, 50, 78.12 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-boost-wikipedia-post]: 1980 MHz, 2619 MHz, 55, 374.55 W, 0x0000000000000000  throttle=ok
+sample[grid-boost-codeparrot-pre]: 345 MHz, 2619 MHz, 49, 92.39 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-boost-codeparrot-post]: 1980 MHz, 2619 MHz, 45, 323.14 W, 0x0000000000000000  throttle=ok
+sample[grid-boost-android-pre]: 375 MHz, 2619 MHz, 40, 115.65 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-boost-android-post]: 1980 MHz, 2619 MHz, 51, 322.95 W, 0x0000000000000000  throttle=ok
+sample[grid-boost-url-pre]: 450 MHz, 2619 MHz, 47, 103.15 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-boost-url-post]: 1980 MHz, 2619 MHz, 52, 338.08 W, 0x0000000000000000  throttle=ok
+sample[grid-boost-thunderbird-pre]: 1980 MHz, 2619 MHz, 49, 136.22 W, 0x0000000000000000  throttle=ok
+sample[grid-boost-thunderbird-post]: 1980 MHz, 2619 MHz, 51, 292.38 W, 0x0000000000000000  throttle=ok
+sample[grid-boost-title-pre]: 1980 MHz, 2619 MHz, 48, 134.96 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-boost-title-post]: 1980 MHz, 2619 MHz, 53, 331.40 W, 0x0000000000000000  throttle=ok
+sample[grid-boost-hdfs-pre]: 1980 MHz, 2619 MHz, 49, 136.31 W, 0x0000000000000000  throttle=ok
+sample[grid-boost-hdfs-post]: 1980 MHz, 2619 MHz, 52, 321.78 W, 0x0000000000000000  throttle=ok
+sample[grid-boost-spark-pre]: 1980 MHz, 2619 MHz, 49, 136.65 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-boost-spark-post]: 1980 MHz, 2619 MHz, 51, 288.57 W, 0x0000000000000000  throttle=ok
+sample[grid-boost-windows-pre]: 1980 MHz, 2619 MHz, 48, 135.23 W, 0x0000000000000000  throttle=ok
+sample[grid-boost-windows-post]: 1980 MHz, 2619 MHz, 49, 277.38 W, 0x0000000000000000  throttle=ok
+sample[grid-boost-caddress-pre]: 345 MHz, 2619 MHz, 44, 75.04 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-boost-caddress-post]: 1980 MHz, 2619 MHz, 55, 354.33 W, 0x0000000000000000  throttle=ok
+sample[grid-boost-lcomment-pre]: 1980 MHz, 2619 MHz, 51, 137.93 W, 0x0000000000000000  throttle=ok
+sample[grid-boost-lcomment-post]: 1980 MHz, 2619 MHz, 53, 318.31 W, 0x0000000000000000  throttle=ok
+sample[grid-boost-oclerk-pre]: 1980 MHz, 2619 MHz, 50, 136.54 W, 0x0000000000000000  throttle=ok
+sample[grid-boost-oclerk-post]: 1980 MHz, 2619 MHz, 51, 303.62 W, 0x0000000000000000  throttle=ok
+sample[grid-boost-shipinstruct-pre]: 1980 MHz, 2619 MHz, 49, 204.11 W, 0x0000000000000000  throttle=ok
+sample[grid-boost-shipinstruct-post]: 1980 MHz, 2619 MHz, 50, 264.26 W, 0x0000000000000000  throttle=ok
+sample[grid-boost-pscomment-pre]: 1980 MHz, 2619 MHz, 48, 134.97 W, 0x0000000000000000  throttle=ok
+sample[grid-boost-pscomment-post]: 1980 MHz, 2619 MHz, 44, 300.83 W, 0x0000000000000000  throttle=ok
+clock_samples_under_load_mhz: 1830,1830,1830,1830,1830,1830,1830,1830,1830,1830,1830,1830
+clock_state: max requested=1980 achieved=1830 breadth=full tag=sm1830
+soak_sm1830: 39C -> 37C in 30s (flat for 30s of 30s required)
+soak_sm1830_curve_c: 39,38,38,37,37,37
+sample[post-soak-sm1830]: 1830 MHz, 2619 MHz, 37, 125.05 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1830-fineweb2-pre]: 1830 MHz, 2619 MHz, 36, 124.92 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1830-fineweb2-post]: 1830 MHz, 2619 MHz, 44, 375.37 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1830-wikipedia-pre]: 1830 MHz, 2619 MHz, 40, 127.83 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1830-wikipedia-post]: 1830 MHz, 2619 MHz, 45, 360.85 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1830-codeparrot-pre]: 1830 MHz, 2619 MHz, 40, 127.71 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1830-codeparrot-post]: 1830 MHz, 2619 MHz, 43, 323.49 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1830-android-pre]: 1830 MHz, 2619 MHz, 40, 127.29 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1830-android-post]: 1830 MHz, 2619 MHz, 43, 319.23 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1830-url-pre]: 1830 MHz, 2619 MHz, 40, 127.48 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1830-url-post]: 1830 MHz, 2619 MHz, 44, 328.86 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1830-thunderbird-pre]: 1830 MHz, 2619 MHz, 40, 127.44 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1830-thunderbird-post]: 1830 MHz, 2619 MHz, 42, 284.46 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1830-title-pre]: 1830 MHz, 2619 MHz, 38, 126.53 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1830-title-post]: 1830 MHz, 2619 MHz, 43, 332.26 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1830-hdfs-pre]: 1830 MHz, 2619 MHz, 40, 127.24 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1830-hdfs-post]: 1830 MHz, 2619 MHz, 42, 311.60 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1830-spark-pre]: 1830 MHz, 2619 MHz, 39, 127.08 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1830-spark-post]: 1830 MHz, 2619 MHz, 41, 280.60 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1830-windows-pre]: 1830 MHz, 2619 MHz, 39, 126.59 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1830-windows-post]: 1830 MHz, 2619 MHz, 42, 270.76 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1830-caddress-pre]: 1830 MHz, 2619 MHz, 38, 125.90 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1830-caddress-post]: 1830 MHz, 2619 MHz, 49, 348.78 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1830-lcomment-pre]: 1830 MHz, 2619 MHz, 45, 131.32 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1830-lcomment-post]: 1830 MHz, 2619 MHz, 46, 306.10 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1830-oclerk-pre]: 1830 MHz, 2619 MHz, 43, 129.82 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1830-oclerk-post]: 1830 MHz, 2619 MHz, 43, 297.80 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1830-shipinstruct-pre]: 1830 MHz, 2619 MHz, 40, 206.38 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1830-shipinstruct-post]: 1830 MHz, 2619 MHz, 42, 255.80 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1830-pscomment-pre]: 1830 MHz, 2619 MHz, 40, 127.70 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1830-pscomment-post]: 1830 MHz, 2619 MHz, 44, 297.22 W, 0x0000000000000000  throttle=ok
+clock_samples_under_load_mhz: 1485,1485,1485,1485,1485,1485,1485,1485,1485,1485,1485,1485
+clock_state: 75% requested=1485 achieved=1485 breadth=prod tag=sm1485
+soak_sm1485: 38C -> 36C in 30s (flat for 30s of 30s required)
+soak_sm1485_curve_c: 38,37,37,37,36,36
+sample[post-soak-sm1485]: 1485 MHz, 2619 MHz, 36, 101.92 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1485-fineweb2-pre]: 1485 MHz, 2619 MHz, 36, 101.93 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1485-fineweb2-post]: 1485 MHz, 2619 MHz, 40, 260.50 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1485-wikipedia-pre]: 1485 MHz, 2619 MHz, 37, 102.78 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1485-wikipedia-post]: 1485 MHz, 2619 MHz, 41, 250.66 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1485-codeparrot-pre]: 1485 MHz, 2619 MHz, 37, 102.89 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1485-codeparrot-post]: 1485 MHz, 2619 MHz, 40, 247.27 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1485-android-pre]: 1485 MHz, 2619 MHz, 37, 102.90 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1485-android-post]: 1485 MHz, 2619 MHz, 39, 220.53 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1485-url-pre]: 1485 MHz, 2619 MHz, 37, 102.80 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1485-url-post]: 1485 MHz, 2619 MHz, 40, 233.58 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1485-thunderbird-pre]: 1485 MHz, 2619 MHz, 37, 102.86 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1485-thunderbird-post]: 1485 MHz, 2619 MHz, 38, 195.94 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1485-title-pre]: 1485 MHz, 2619 MHz, 37, 102.26 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1485-title-post]: 1485 MHz, 2619 MHz, 39, 230.93 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1485-hdfs-pre]: 1485 MHz, 2619 MHz, 37, 102.36 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1485-hdfs-post]: 1485 MHz, 2619 MHz, 39, 213.47 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1485-spark-pre]: 1485 MHz, 2619 MHz, 37, 102.39 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1485-spark-post]: 1485 MHz, 2619 MHz, 39, 194.71 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1485-windows-pre]: 1485 MHz, 2619 MHz, 37, 102.34 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1485-windows-post]: 1485 MHz, 2619 MHz, 38, 190.83 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1485-caddress-pre]: 1485 MHz, 2619 MHz, 36, 101.83 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1485-caddress-post]: 1485 MHz, 2619 MHz, 41, 258.80 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1485-lcomment-pre]: 1485 MHz, 2619 MHz, 38, 103.27 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1485-lcomment-post]: 1485 MHz, 2619 MHz, 40, 238.38 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1485-oclerk-pre]: 1485 MHz, 2619 MHz, 37, 103.10 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1485-oclerk-post]: 1485 MHz, 2619 MHz, 39, 216.13 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1485-shipinstruct-pre]: 1485 MHz, 2619 MHz, 37, 150.56 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1485-shipinstruct-post]: 1485 MHz, 2619 MHz, 38, 183.37 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1485-pscomment-pre]: 1485 MHz, 2619 MHz, 36, 102.13 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1485-pscomment-post]: 1485 MHz, 2619 MHz, 39, 241.56 W, 0x0000000000000000  throttle=ok
+clock_samples_under_load_mhz: 1080,1080,1080,1080,1080,1080,1080,1080,1080,1080,1080,1080
+clock_state: 55% requested=1080 achieved=1080 breadth=prod tag=sm1080
+soak_sm1080: 35C -> 34C in 30s (flat for 30s of 30s required)
+soak_sm1080_curve_c: 36,35,35,34,34,34
+sample[post-soak-sm1080]: 1080 MHz, 2619 MHz, 34, 77.58 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1080-fineweb2-pre]: 1080 MHz, 2619 MHz, 34, 77.41 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1080-fineweb2-post]: 1080 MHz, 2619 MHz, 37, 183.79 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1080-wikipedia-pre]: 1080 MHz, 2619 MHz, 35, 77.88 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1080-wikipedia-post]: 1080 MHz, 2619 MHz, 37, 184.91 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1080-codeparrot-pre]: 1080 MHz, 2619 MHz, 35, 78.00 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1080-codeparrot-post]: 1080 MHz, 2619 MHz, 37, 163.31 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1080-android-pre]: 1080 MHz, 2619 MHz, 35, 78.00 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1080-android-post]: 1080 MHz, 2619 MHz, 36, 152.76 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1080-url-pre]: 1080 MHz, 2619 MHz, 35, 78.01 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1080-url-post]: 1080 MHz, 2619 MHz, 36, 157.78 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1080-thunderbird-pre]: 1080 MHz, 2619 MHz, 35, 77.99 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1080-thunderbird-post]: 1080 MHz, 2619 MHz, 36, 149.74 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1080-title-pre]: 1080 MHz, 2619 MHz, 35, 77.89 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1080-title-post]: 1080 MHz, 2619 MHz, 37, 155.26 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1080-hdfs-pre]: 1080 MHz, 2619 MHz, 35, 77.71 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1080-hdfs-post]: 1080 MHz, 2619 MHz, 36, 151.25 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1080-spark-pre]: 1080 MHz, 2619 MHz, 35, 77.70 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1080-spark-post]: 1080 MHz, 2619 MHz, 36, 150.30 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1080-windows-pre]: 1080 MHz, 2619 MHz, 35, 77.81 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1080-windows-post]: 1080 MHz, 2619 MHz, 36, 147.21 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1080-caddress-pre]: 1080 MHz, 2619 MHz, 34, 77.71 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1080-caddress-post]: 1080 MHz, 2619 MHz, 37, 168.77 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1080-lcomment-pre]: 1080 MHz, 2619 MHz, 35, 77.99 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1080-lcomment-post]: 1080 MHz, 2619 MHz, 36, 158.17 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1080-oclerk-pre]: 1080 MHz, 2619 MHz, 35, 77.89 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1080-oclerk-post]: 1080 MHz, 2619 MHz, 36, 155.53 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1080-shipinstruct-pre]: 1080 MHz, 2619 MHz, 35, 113.54 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1080-shipinstruct-post]: 1080 MHz, 2619 MHz, 35, 139.67 W, 0x0000000000000000  throttle=ok
+sample[grid-sm1080-pscomment-pre]: 1080 MHz, 2619 MHz, 35, 77.65 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm1080-pscomment-post]: 1080 MHz, 2619 MHz, 36, 154.27 W, 0x0000000000000000  throttle=ok
+clock_samples_under_load_mhz: 780,780,780,780,780,780,780,780,780,780,780,780
+clock_state: 40% requested=780 achieved=780 breadth=prod tag=sm780
+soak_sm780: 34C -> 34C in 35s (flat for 30s of 30s required)
+soak_sm780_curve_c: 36,34,34,34,34,34,34
+sample[post-soak-sm780]: 780 MHz, 2619 MHz, 34, 74.25 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm780-fineweb2-pre]: 780 MHz, 2619 MHz, 34, 74.24 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm780-fineweb2-post]: 780 MHz, 2619 MHz, 36, 144.94 W, 0x0000000000000000  throttle=ok
+sample[grid-sm780-wikipedia-pre]: 780 MHz, 2619 MHz, 34, 74.50 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm780-wikipedia-post]: 780 MHz, 2619 MHz, 36, 148.97 W, 0x0000000000000000  throttle=ok
+sample[grid-sm780-codeparrot-pre]: 780 MHz, 2619 MHz, 35, 74.43 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm780-codeparrot-post]: 780 MHz, 2619 MHz, 35, 145.53 W, 0x0000000000000000  throttle=ok
+sample[grid-sm780-android-pre]: 780 MHz, 2619 MHz, 34, 74.27 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm780-android-post]: 780 MHz, 2619 MHz, 35, 137.14 W, 0x0000000000000000  throttle=ok
+sample[grid-sm780-url-pre]: 780 MHz, 2619 MHz, 34, 74.38 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm780-url-post]: 780 MHz, 2619 MHz, 35, 142.08 W, 0x0000000000000000  throttle=ok
+sample[grid-sm780-thunderbird-pre]: 780 MHz, 2619 MHz, 35, 74.53 W, 0x0000000000000000  throttle=ok
+sample[grid-sm780-thunderbird-post]: 780 MHz, 2619 MHz, 35, 128.18 W, 0x0000000000000000  throttle=ok
+sample[grid-sm780-title-pre]: 780 MHz, 2619 MHz, 34, 74.45 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm780-title-post]: 780 MHz, 2619 MHz, 35, 143.14 W, 0x0000000000000000  throttle=ok
+sample[grid-sm780-hdfs-pre]: 780 MHz, 2619 MHz, 35, 74.46 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm780-hdfs-post]: 780 MHz, 2619 MHz, 35, 135.76 W, 0x0000000000000000  throttle=ok
+sample[grid-sm780-spark-pre]: 780 MHz, 2619 MHz, 35, 74.44 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm780-spark-post]: 780 MHz, 2619 MHz, 35, 128.34 W, 0x0000000000000000  throttle=ok
+sample[grid-sm780-windows-pre]: 780 MHz, 2619 MHz, 35, 74.44 W, 0x0000000000000000  throttle=ok
+sample[grid-sm780-windows-post]: 780 MHz, 2619 MHz, 35, 125.75 W, 0x0000000000000000  throttle=ok
+sample[grid-sm780-caddress-pre]: 780 MHz, 2619 MHz, 34, 74.32 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[grid-sm780-caddress-post]: 780 MHz, 2619 MHz, 36, 137.43 W, 0x0000000000000000  throttle=ok
+sample[grid-sm780-lcomment-pre]: 780 MHz, 2619 MHz, 35, 74.65 W, 0x0000000000000000  throttle=ok
+sample[grid-sm780-lcomment-post]: 780 MHz, 2619 MHz, 36, 142.36 W, 0x0000000000000000  throttle=ok
+sample[grid-sm780-oclerk-pre]: 780 MHz, 2619 MHz, 35, 74.59 W, 0x0000000000000000  throttle=ok
+sample[grid-sm780-oclerk-post]: 780 MHz, 2619 MHz, 36, 135.88 W, 0x0000000000000000  throttle=ok
+sample[grid-sm780-shipinstruct-pre]: 780 MHz, 2619 MHz, 35, 99.32 W, 0x0000000000000000  throttle=ok
+sample[grid-sm780-shipinstruct-post]: 780 MHz, 2619 MHz, 35, 127.60 W, 0x0000000000000000  throttle=ok
+sample[grid-sm780-pscomment-pre]: 780 MHz, 2619 MHz, 34, 74.45 W, 0x0000000000000000  throttle=ok
+sample[grid-sm780-pscomment-post]: 780 MHz, 2619 MHz, 36, 145.51 W, 0x0000000000000000  throttle=ok
+policy_boost_released_at: 13:57:28
+locked_sm_mhz: none (boost/floating)
+sample: 1905 MHz, 2619 MHz, 35, 137.17 W, 0x0000000000000024  throttle=THROTTLED,sw_power_cap,sw_thermal
+soak_comparators: 35C -> 34C in 30s (flat for 30s of 30s required)
+soak_comparators_curve_c: 36,35,34,34,34,34
+sample[post-soak-comparators]: 345 MHz, 2619 MHz, 34, 71.43 W, 0x0000000000000001  throttle=ok (benign,idle)
+de_skipped: not blackwell
+sample[post-suite]: 1980 MHz, 2619 MHz, 35, 124.08 W, 0x0000000000000000  throttle=ok

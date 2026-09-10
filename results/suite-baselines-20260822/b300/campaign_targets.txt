@@ -1,0 +1,15 @@
+fineweb2 fineweb2-zh text
+wikipedia wikipedia text
+codeparrot codeparrot content
+android loghub-android line
+url clickbench URL
+thunderbird loghub-thunderbird line
+title clickbench Title
+hdfs loghub-hdfs line
+spark loghub-spark line
+windows loghub-windows line
+caddress tpch-sf263 c_address
+lcomment tpch-sf15 l_comment
+oclerk tpch-sf45 o_clerk
+shipinstruct tpch-sf15 l_shipinstruct
+pscomment tpch-sf15 ps_comment

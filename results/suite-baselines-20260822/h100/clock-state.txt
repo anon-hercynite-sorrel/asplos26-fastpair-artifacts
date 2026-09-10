@@ -1,0 +1,19 @@
+vortex_rev: 94905b572340e890eb6fa131b2ca0129b8792296
+training_seed: 20260819
+kernel_order_seed: 20260819
+stages: MATERIALIZE SW
+clocks: boost:full
+NVIDIA H100 80GB HBM3, 1980 MHz, 2619 MHz, 9.0
+throttle_field: clocks_event_reasons.active
+--- box facts
+NVIDIA H100 80GB HBM3, Enabled, Enabled, Enabled, Disabled, [Requested functionality has been deprecated], 580.126.09, 96.00.A5.00.01
+power_limits(limit,enforced,min,max): 700.00 W, 700.00 W, 200.00 W, 700.00 W
+compute_procs: 
+mem_pin: 2619 MHz
+policy_boost_released_at: 20:53:21
+locked_sm_mhz: none (boost/floating)
+sample: 1980 MHz, 2619 MHz, 33, 126.29 W, 0x0000000000000000  throttle=ok
+soak_comparators: 33C -> 31C in 30s (flat for 30s of 30s required)
+soak_comparators_curve_c: 33,32,31,31,31,31
+sample[post-soak-comparators]: 345 MHz, 2619 MHz, 31, 69.34 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[post-suite]: 1980 MHz, 2619 MHz, 34, 173.56 W, 0x0000000000000000  throttle=ok

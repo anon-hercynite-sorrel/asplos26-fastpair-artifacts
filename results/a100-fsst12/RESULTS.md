@@ -1,0 +1,150 @@
+# FastPair — FSST-12 (HF columns) + split-vs-stride16 NCU
+
+- rev `2d909147f`, host <redacted-orchestrator-host>, GPU NVIDIA A100-SXM4-40GB
+- date 2026-08-13T06:33:08Z
+
+## Phase 1 — NCU captures (split8read vs stride-16, same cell)
+(none)
+
+```
+(no census)
+```
+
+## Phase 2 — FSST-12 cells
+| codec | bits | dataset | column | ratio | matched | GiB/s | frac_le8 | verified |
+|---|---|---|---|---|---|---|---|---|
+| fsst12 | 12 | amazon-electronics | text | 1.97 | 1.97 | 424 | 1.000 | True |
+| fsst12 | 12 | amazon-movies | text | 1.93 | 1.93 | 415 | 1.000 | True |
+| fsst12 | 12 | book-reviews | text | 1.94 | 1.94 | 420 | 1.000 | True |
+| fsst12 | 12 | clickbench | MobilePhoneModel | 0.78 | 1.16 | 557 | 1.000 | True |
+| fsst12 | 12 | clickbench | Referer | 1.95 | 1.96 | 421 | 1.000 | True |
+| fsst12 | 12 | clickbench | SearchPhrase | 1.55 | 1.67 | 435 | 1.000 | True |
+| fsst12 | 12 | clickbench | Title | 1.98 | 1.98 | 439 | 1.000 | True |
+| fsst12 | 12 | clickbench | URL | 2.08 | 2.10 | 447 | 1.000 | True |
+| fsst12 | 12 | fineweb | dump | 2.76 | 7.66 | 550 | 1.000 | True |
+| fsst12 | 12 | fineweb | file_path | 2.70 | 3.01 | 561 | 1.000 | True |
+| fsst12 | 12 | fineweb | language | 1.00 | 905.51 | 159 | 1.000 | True |
+| fsst12 | 12 | fineweb | text | 1.84 | 1.84 | 390 | 1.000 | True |
+| fsst12 | 12 | fineweb | url | 1.80 | 1.81 | 371 | 1.000 | True |
+| fsst12 | 12 | synthetic | url | 2.56 | 3.42 | 576 | 1.000 | True |
+| fsst12 | 12 | synthetic | url | 2.56 | 3.42 | 576 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | c_address | 1.21 | 1.22 | 316 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | c_comment | 2.98 | 3.60 | 572 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | c_mktsegment | 2.91 | 7.53 | 491 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | c_name | 2.21 | 2.82 | 481 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | c_phone | 1.62 | 1.96 | 418 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | l_comment | 2.49 | 2.88 | 565 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | l_linestatus | 0.50 | 8.00 | 248 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | l_returnflag | 0.50 | 4.00 | 248 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | l_shipinstruct | 3.38 | 11.39 | 823 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | l_shipmode | 2.14 | 11.43 | 666 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | n_comment | 0.41 | 0.42 | 0 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | n_name | 0.07 | 0.06 | 0 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | o_clerk | 2.50 | 3.00 | 583 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | o_comment | 2.83 | 3.41 | 585 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | o_orderpriority | 3.36 | 11.20 | 843 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | o_orderstatus | 0.50 | 4.00 | 213 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | p_brand | 2.67 | 6.39 | 502 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | p_comment | 2.02 | 2.35 | 416 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | p_container | 2.52 | 7.57 | 475 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | p_mfgr | 2.80 | 12.43 | 531 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | p_name | 2.59 | 3.47 | 532 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | p_type | 3.62 | 7.29 | 707 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | ps_comment | 3.19 | 3.83 | 616 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | r_comment | 0.11 | 0.11 | 0 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | r_name | 0.01 | 0.01 | 0 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | s_address | 1.19 | 1.20 | 151 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | s_comment | 2.89 | 3.48 | 315 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | s_name | 2.68 | 3.18 | 149 | 1.000 | True |
+| fsst12 | 12 | tpch-sf10 | s_phone | 1.60 | 1.92 | 124 | 1.000 | True |
+| fsst12 | 12 | wikipedia | text | 1.83 | 1.83 | 382 | 1.000 | True |
+| fsst12 | 12 | wikipedia | title | 1.56 | 1.59 | 167 | 1.000 | True |
+| fsst12 | 12 | wikipedia | url | 2.46 | 2.49 | 345 | 1.000 | True |
+| onpair | 12 | amazon-electronics | text | 2.69 | None | 383 | 0.951 | True |
+| onpair | 16 | amazon-electronics | text | 3.40 | None | 291 | 0.681 | True |
+| onpair | 12 | amazon-movies | text | 2.48 | None | 379 | 0.962 | True |
+| onpair | 16 | amazon-movies | text | 3.21 | None | 292 | 0.725 | True |
+| onpair | 12 | book-reviews | text | 2.60 | None | 383 | 0.957 | True |
+| onpair | 16 | book-reviews | text | 3.30 | None | 268 | 0.716 | True |
+| onpair | 12 | clickbench | MobilePhoneModel | 0.72 | None | 516 | 0.991 | True |
+| onpair | 16 | clickbench | MobilePhoneModel | 0.72 | None | 516 | 0.991 | True |
+| onpair | 12 | clickbench | Referer | 2.47 | None | 378 | 0.873 | True |
+| onpair | 16 | clickbench | Referer | 3.31 | None | 388 | 0.627 | True |
+| onpair | 12 | clickbench | SearchPhrase | 2.06 | None | 469 | 0.832 | True |
+| onpair | 16 | clickbench | SearchPhrase | 2.42 | None | 387 | 0.443 | True |
+| onpair | 12 | clickbench | Title | 3.57 | None | 484 | 0.783 | True |
+| onpair | 16 | clickbench | Title | 4.64 | None | 500 | 0.360 | True |
+| onpair | 12 | clickbench | URL | 2.89 | None | 425 | 0.809 | True |
+| onpair | 16 | clickbench | URL | 3.86 | None | 469 | 0.506 | True |
+| onpair | 12 | fineweb | dump | 726.84 | None | 753 | 0.000 | True |
+| onpair | 16 | fineweb | dump | 726.47 | None | 753 | 0.000 | True |
+| onpair | 12 | fineweb | file_path | 6.21 | None | 643 | 0.398 | True |
+| onpair | 16 | fineweb | file_path | 7.39 | None | 734 | 0.204 | True |
+| onpair | 12 | fineweb | language | 4306.29 | None | 136 | 1.000 | True |
+| onpair | 16 | fineweb | language | 4306.29 | None | 136 | 1.000 | True |
+| onpair | 12 | fineweb | text | 2.24 | None | 384 | 0.987 | True |
+| onpair | 16 | fineweb | text | 2.88 | None | 242 | 0.815 | True |
+| onpair | 12 | fineweb | url | 2.14 | None | 324 | 0.949 | True |
+| onpair | 16 | fineweb | url | 2.52 | None | 215 | 0.823 | True |
+| onpair | 12 | synthetic | url | 9.27 | None | 769 | 0.189 | True |
+| onpair | 16 | synthetic | url | 9.81 | None | 787 | 0.164 | True |
+| onpair | 12 | synthetic | url | 9.27 | None | 769 | 0.189 | True |
+| onpair | 16 | synthetic | url | 9.81 | None | 787 | 0.164 | True |
+| onpair | 12 | tpch-sf10 | c_address | 1.19 | None | 316 | 1.000 | True |
+| onpair | 16 | tpch-sf10 | c_address | 1.13 | None | 322 | 1.000 | True |
+| onpair | 12 | tpch-sf10 | c_comment | 5.66 | None | 618 | 0.396 | True |
+| onpair | 16 | tpch-sf10 | c_comment | 5.14 | None | 421 | 0.230 | True |
+| onpair | 12 | tpch-sf10 | c_mktsegment | 14.39 | None | 534 | 0.200 | True |
+| onpair | 16 | tpch-sf10 | c_mktsegment | 14.39 | None | 534 | 0.200 | True |
+| onpair | 12 | tpch-sf10 | c_phone | 2.04 | None | 372 | 1.000 | True |
+| onpair | 16 | tpch-sf10 | c_phone | 2.00 | None | 166 | 1.000 | True |
+| onpair | 12 | tpch-sf10 | l_comment | 4.16 | None | 589 | 0.577 | True |
+| onpair | 16 | tpch-sf10 | l_comment | 4.19 | None | 356 | 0.334 | True |
+| onpair | 12 | tpch-sf10 | l_linestatus | 8.00 | None | 390 | 1.000 | True |
+| onpair | 16 | tpch-sf10 | l_linestatus | 8.00 | None | 390 | 1.000 | True |
+| onpair | 12 | tpch-sf10 | l_returnflag | 4.00 | None | 390 | 1.000 | True |
+| onpair | 16 | tpch-sf10 | l_returnflag | 4.00 | None | 387 | 1.000 | True |
+| onpair | 12 | tpch-sf10 | l_shipinstruct | 11.16 | None | 784 | 0.400 | True |
+| onpair | 16 | tpch-sf10 | l_shipinstruct | 11.16 | None | 781 | 0.400 | True |
+| onpair | 12 | tpch-sf10 | l_shipmode | 5.71 | None | 662 | 1.000 | True |
+| onpair | 16 | tpch-sf10 | l_shipmode | 5.71 | None | 641 | 1.000 | True |
+| onpair | 12 | tpch-sf10 | n_comment | 0.61 | None | 0 | 1.000 | True |
+| onpair | 16 | tpch-sf10 | n_comment | 0.61 | None | 0 | 1.000 | True |
+| onpair | 12 | tpch-sf10 | n_name | 0.18 | None | 0 | 1.000 | True |
+| onpair | 16 | tpch-sf10 | n_name | 0.18 | None | 0 | 1.000 | True |
+| onpair | 12 | tpch-sf10 | o_clerk | 5.21 | None | 658 | 0.406 | True |
+| onpair | 16 | tpch-sf10 | o_clerk | 8.52 | None | 696 | 0.000 | True |
+| onpair | 12 | tpch-sf10 | o_comment | 5.13 | None | 630 | 0.457 | True |
+| onpair | 16 | tpch-sf10 | o_comment | 5.01 | None | 406 | 0.251 | True |
+| onpair | 12 | tpch-sf10 | o_orderpriority | 13.44 | None | 739 | 0.800 | True |
+| onpair | 16 | tpch-sf10 | o_orderpriority | 13.44 | None | 716 | 0.800 | True |
+| onpair | 12 | tpch-sf10 | o_orderstatus | 4.00 | None | 317 | 1.000 | True |
+| onpair | 16 | tpch-sf10 | o_orderstatus | 4.00 | None | 317 | 1.000 | True |
+| onpair | 12 | tpch-sf10 | p_brand | 12.78 | None | 582 | 1.000 | True |
+| onpair | 16 | tpch-sf10 | p_brand | 12.78 | None | 661 | 1.000 | True |
+| onpair | 12 | tpch-sf10 | p_comment | 3.03 | None | 424 | 0.760 | True |
+| onpair | 16 | tpch-sf10 | p_comment | 2.96 | None | 282 | 0.551 | True |
+| onpair | 12 | tpch-sf10 | p_container | 6.73 | None | 492 | 0.725 | True |
+| onpair | 16 | tpch-sf10 | p_container | 6.73 | None | 510 | 0.725 | True |
+| onpair | 12 | tpch-sf10 | p_mfgr | 37.28 | None | 878 | 0.000 | True |
+| onpair | 16 | tpch-sf10 | p_mfgr | 37.28 | None | 707 | 0.000 | True |
+| onpair | 12 | tpch-sf10 | p_name | 4.43 | None | 567 | 0.650 | True |
+| onpair | 16 | tpch-sf10 | p_name | 4.67 | None | 458 | 0.274 | True |
+| onpair | 12 | tpch-sf10 | p_type | 7.92 | None | 646 | 0.452 | True |
+| onpair | 16 | tpch-sf10 | p_type | 7.92 | None | 646 | 0.439 | True |
+| onpair | 12 | tpch-sf10 | ps_comment | 6.29 | None | 679 | 0.327 | True |
+| onpair | 16 | tpch-sf10 | ps_comment | 5.82 | None | 408 | 0.157 | True |
+| onpair | 12 | tpch-sf10 | r_comment | 0.35 | None | 0 | 1.000 | True |
+| onpair | 16 | tpch-sf10 | r_comment | 0.36 | None | 0 | 1.000 | True |
+| onpair | 12 | tpch-sf10 | r_name | 0.09 | None | 0 | 1.000 | True |
+| onpair | 16 | tpch-sf10 | r_name | 0.09 | None | 0 | 1.000 | True |
+| onpair | 12 | tpch-sf10 | s_address | 1.16 | None | 142 | 1.000 | True |
+| onpair | 16 | tpch-sf10 | s_address | 1.13 | None | 134 | 1.000 | True |
+| onpair | 12 | tpch-sf10 | s_comment | 5.13 | None | 315 | 0.445 | True |
+| onpair | 16 | tpch-sf10 | s_comment | 4.68 | None | 299 | 0.372 | True |
+| onpair | 12 | tpch-sf10 | s_name | 5.72 | None | 149 | 0.503 | True |
+| onpair | 16 | tpch-sf10 | s_name | 5.55 | None | 149 | 0.513 | True |
+| onpair | 12 | tpch-sf10 | s_phone | 1.97 | None | 105 | 1.000 | True |
+| onpair | 16 | tpch-sf10 | s_phone | 1.78 | None | 97 | 1.000 | True |
+| onpair | 12 | wikipedia | text | 2.16 | None | 362 | 0.982 | True |
+| onpair | 16 | wikipedia | text | 2.79 | None | 268 | 0.825 | True |

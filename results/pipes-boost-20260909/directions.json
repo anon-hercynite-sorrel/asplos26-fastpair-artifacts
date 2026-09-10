@@ -1,0 +1,1956 @@
+{
+  "cells": [
+    {
+      "chip": "a100",
+      "kernel": "onpair_dw_k4_t128_b2",
+      "roles": [
+        "winner"
+      ],
+      "direction_method": "estimated_tag_ratio",
+      "raw_path": "evidence/a100/stabilized/onpair_dw_k4_t128_b2.raw.csv",
+      "raw_sha256": "de9693cba3aeb391a1c28ab1b8b6beeaf308d4ea655ff31f02cc687550ce1207",
+      "launches": [
+        {
+          "id": "0",
+          "raw": {
+            "total": 195987586.0,
+            "shared": 130472295.0,
+            "sread": 9661040.0,
+            "swrite": 110469970.0,
+            "atom": 0.0,
+            "tread": 46149259.0,
+            "twrite": 5376673.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 98.93
+          },
+          "tag_read_fraction": 0.8956511257283032,
+          "direct_read_fraction": null,
+          "shares_pct": {
+            "global_reads": 29.940082090999052,
+            "global_writes": 3.488204025040968,
+            "shared_reads": 4.929414253819117,
+            "shared_writes": 56.36579961753292,
+            "other": 5.276500012607942
+          },
+          "peak_points": {
+            "global_reads": 29.619723212625363,
+            "global_writes": 3.4508802419730302,
+            "shared_reads": 4.876669521303253,
+            "shared_writes": 55.76268556162532,
+            "other": 5.220041462473038
+          },
+          "estimated_global_read_share_pct": 29.940082090999052,
+          "estimated_global_write_share_pct": 3.488204025040968,
+          "estimate_minus_direct_read_share_pp": null,
+          "estimate_minus_direct_read_peak_pp": null,
+          "direct_nonshared_closure_share_pp": null
+        },
+        {
+          "id": "1",
+          "raw": {
+            "total": 196005769.0,
+            "shared": 130473668.0,
+            "sread": 9660000.0,
+            "swrite": 110469628.0,
+            "atom": 0.0,
+            "tread": 46149226.0,
+            "twrite": 5376680.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 99.03
+          },
+          "tag_read_fraction": 0.8956509372198133,
+          "direct_read_fraction": null,
+          "shares_pct": {
+            "global_reads": 29.944979669773627,
+            "global_writes": 3.488781659975803,
+            "shared_reads": 4.928426366879028,
+            "shared_writes": 56.360396208542205,
+            "other": 5.277416094829332
+          },
+          "peak_points": {
+            "global_reads": 29.654513366976822,
+            "global_writes": 3.454940477874038,
+            "shared_reads": 4.880620631120301,
+            "shared_writes": 55.81370036531935,
+            "other": 5.226225158709488
+          },
+          "estimated_global_read_share_pct": 29.944979669773627,
+          "estimated_global_write_share_pct": 3.488781659975803,
+          "estimate_minus_direct_read_share_pp": null,
+          "estimate_minus_direct_read_peak_pp": null,
+          "direct_nonshared_closure_share_pp": null
+        },
+        {
+          "id": "2",
+          "raw": {
+            "total": 195990640.0,
+            "shared": 130470859.0,
+            "sread": 9659714.0,
+            "swrite": 110472024.0,
+            "atom": 0.0,
+            "tread": 46149230.0,
+            "twrite": 5376676.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 99.01
+          },
+          "tag_read_fraction": 0.8956510148506656,
+          "direct_read_fraction": null,
+          "shares_pct": {
+            "global_reads": 29.941663716922072,
+            "global_writes": 3.4883924326981353,
+            "shared_reads": 4.928660878907278,
+            "shared_writes": 56.36596931363661,
+            "other": 5.275313657835905
+          },
+          "peak_points": {
+            "global_reads": 29.645241246124545,
+            "global_writes": 3.453857347614424,
+            "shared_reads": 4.879867136206096,
+            "shared_writes": 55.807946217431606,
+            "other": 5.223088052623329
+          },
+          "estimated_global_read_share_pct": 29.941663716922072,
+          "estimated_global_write_share_pct": 3.4883924326981353,
+          "estimate_minus_direct_read_share_pp": null,
+          "estimate_minus_direct_read_peak_pp": null,
+          "direct_nonshared_closure_share_pp": null
+        },
+        {
+          "id": "3",
+          "raw": {
+            "total": 195993058.0,
+            "shared": 130473314.0,
+            "sread": 9660821.0,
+            "swrite": 110470527.0,
+            "atom": 0.0,
+            "tread": 46149167.0,
+            "twrite": 5376680.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 99.03
+          },
+          "tag_read_fraction": 0.8956508177342529,
+          "direct_read_fraction": null,
+          "shares_pct": {
+            "global_reads": 29.9412708236528,
+            "global_writes": 3.48835401540655,
+            "shared_reads": 4.929164889095205,
+            "shared_writes": 56.364510114434765,
+            "other": 5.276700157410677
+          },
+          "peak_points": {
+            "global_reads": 29.650840496663367,
+            "global_writes": 3.454516981457106,
+            "shared_reads": 4.881351989670981,
+            "shared_writes": 55.81777436632475,
+            "other": 5.225516165883794
+          },
+          "estimated_global_read_share_pct": 29.9412708236528,
+          "estimated_global_write_share_pct": 3.48835401540655,
+          "estimate_minus_direct_read_share_pp": null,
+          "estimate_minus_direct_read_peak_pp": null,
+          "direct_nonshared_closure_share_pp": null
+        }
+      ],
+      "shares_pct": {
+        "global_reads": 29.941999075336888,
+        "global_writes": 3.488433033280364,
+        "shared_reads": 4.9289165971751565,
+        "shared_writes": 56.36416881353662,
+        "other": 5.276482480670964
+      },
+      "peak_points": {
+        "global_reads": 29.642579580597523,
+        "global_writes": 3.4535487622296497,
+        "shared_reads": 4.879627319575158,
+        "shared_writes": 55.800526627675254,
+        "other": 5.223717709922412
+      },
+      "estimated_global_read_share_pct": {
+        "mean": 29.941999075336888,
+        "min": 29.940082090999052,
+        "max": 29.944979669773627
+      },
+      "estimated_global_write_share_pct": {
+        "mean": 3.488433033280364,
+        "min": 3.488204025040968,
+        "max": 3.488781659975803
+      },
+      "estimate_minus_direct_read_share_pp": null,
+      "estimate_minus_direct_read_peak_pp": null,
+      "direct_nonshared_closure_share_pp": null
+    },
+    {
+      "chip": "a100",
+      "kernel": "onpair_dw_k6_t256_b4",
+      "roles": [
+        "recommended"
+      ],
+      "direction_method": "estimated_tag_ratio",
+      "raw_path": "evidence/a100/stabilized/onpair_dw_k6_t256_b4.raw.csv",
+      "raw_sha256": "b56a9700caf4d987a2d6f96548a1876fb31f7c110605f70d38457b00ab3eebfc",
+      "launches": [
+        {
+          "id": "0",
+          "raw": {
+            "total": 204641302.0,
+            "shared": 133373410.0,
+            "sread": 10514443.0,
+            "swrite": 112817397.0,
+            "atom": 0.0,
+            "tread": 45909033.0,
+            "twrite": 5643916.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 96.23
+          },
+          "tag_read_fraction": 0.8905219563676173,
+          "direct_read_fraction": null,
+          "shares_pct": {
+            "global_reads": 31.0131053652288,
+            "global_writes": 3.8126562495990846,
+            "shared_reads": 5.137986758899726,
+            "shared_writes": 55.12933894449127,
+            "other": 4.90691268178112
+          },
+          "peak_points": {
+            "global_reads": 29.843911292959675,
+            "global_writes": 3.6689191089891993,
+            "shared_reads": 4.944284658089206,
+            "shared_writes": 53.05096286628395,
+            "other": 4.7219220736779715
+          },
+          "estimated_global_read_share_pct": 31.0131053652288,
+          "estimated_global_write_share_pct": 3.8126562495990846,
+          "estimate_minus_direct_read_share_pp": null,
+          "estimate_minus_direct_read_peak_pp": null,
+          "direct_nonshared_closure_share_pp": null
+        },
+        {
+          "id": "1",
+          "raw": {
+            "total": 204620783.0,
+            "shared": 133363398.0,
+            "sread": 10517867.0,
+            "swrite": 112806729.0,
+            "atom": 0.0,
+            "tread": 45909246.0,
+            "twrite": 5643893.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 96.31
+          },
+          "tag_read_fraction": 0.8905228059924731,
+          "direct_read_fraction": null,
+          "shares_pct": {
+            "global_reads": 31.011672180868334,
+            "global_writes": 3.8124468334744055,
+            "shared_reads": 5.140175326178866,
+            "shared_writes": 55.129653667682426,
+            "other": 4.906051991795965
+          },
+          "peak_points": {
+            "global_reads": 29.867341477394294,
+            "global_writes": 3.6717675453192,
+            "shared_reads": 4.950502856642866,
+            "shared_writes": 53.09536944734495,
+            "other": 4.7250186732986945
+          },
+          "estimated_global_read_share_pct": 31.011672180868334,
+          "estimated_global_write_share_pct": 3.8124468334744055,
+          "estimate_minus_direct_read_share_pp": null,
+          "estimate_minus_direct_read_peak_pp": null,
+          "direct_nonshared_closure_share_pp": null
+        },
+        {
+          "id": "2",
+          "raw": {
+            "total": 204614078.0,
+            "shared": 133358903.0,
+            "sread": 10516922.0,
+            "swrite": 112814389.0,
+            "atom": 0.0,
+            "tread": 45909039.0,
+            "twrite": 5643811.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 96.31
+          },
+          "tag_read_fraction": 0.8905237828752436,
+          "direct_read_fraction": null,
+          "shares_pct": {
+            "global_reads": 31.011760583960154,
+            "global_writes": 3.8124195000710146,
+            "shared_reads": 5.139881919561762,
+            "shared_writes": 55.13520384457613,
+            "other": 4.900734151830941
+          },
+          "peak_points": {
+            "global_reads": 29.867426618412022,
+            "global_writes": 3.6717412205183946,
+            "shared_reads": 4.950220276729933,
+            "shared_writes": 53.10071482271127,
+            "other": 4.719897061628378
+          },
+          "estimated_global_read_share_pct": 31.011760583960154,
+          "estimated_global_write_share_pct": 3.8124195000710146,
+          "estimate_minus_direct_read_share_pp": null,
+          "estimate_minus_direct_read_peak_pp": null,
+          "direct_nonshared_closure_share_pp": null
+        },
+        {
+          "id": "3",
+          "raw": {
+            "total": 204623425.0,
+            "shared": 133374103.0,
+            "sread": 10515839.0,
+            "swrite": 112811711.0,
+            "atom": 0.0,
+            "tread": 45908577.0,
+            "twrite": 5643913.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 96.31
+          },
+          "tag_read_fraction": 0.8905210398178633,
+          "direct_read_fraction": null,
+          "shares_pct": {
+            "global_reads": 31.00770125109467,
+            "global_writes": 3.812027721773415,
+            "shared_reads": 5.139117869813781,
+            "shared_writes": 55.13137657626442,
+            "other": 4.909776581053709
+          },
+          "peak_points": {
+            "global_reads": 29.863517074929277,
+            "global_writes": 3.671363898839976,
+            "shared_reads": 4.949484420417653,
+            "shared_writes": 53.09702878060027,
+            "other": 4.728605825212827
+          },
+          "estimated_global_read_share_pct": 31.00770125109467,
+          "estimated_global_write_share_pct": 3.812027721773415,
+          "estimate_minus_direct_read_share_pp": null,
+          "estimate_minus_direct_read_peak_pp": null,
+          "direct_nonshared_closure_share_pp": null
+        }
+      ],
+      "shares_pct": {
+        "global_reads": 31.01105984528799,
+        "global_writes": 3.81238757622948,
+        "shared_reads": 5.139290468613534,
+        "shared_writes": 55.13139325825357,
+        "other": 4.905868851615434
+      },
+      "peak_points": {
+        "global_reads": 29.860549115923817,
+        "global_writes": 3.6709479434166923,
+        "shared_reads": 4.948623052969914,
+        "shared_writes": 53.08601897923511,
+        "other": 4.723860908454467
+      },
+      "estimated_global_read_share_pct": {
+        "mean": 31.01105984528799,
+        "min": 31.00770125109467,
+        "max": 31.0131053652288
+      },
+      "estimated_global_write_share_pct": {
+        "mean": 3.81238757622948,
+        "min": 3.812027721773415,
+        "max": 3.8126562495990846
+      },
+      "estimate_minus_direct_read_share_pp": null,
+      "estimate_minus_direct_read_peak_pp": null,
+      "direct_nonshared_closure_share_pp": null
+    },
+    {
+      "chip": "h100",
+      "kernel": "onpair_dw_k7_t256_b4",
+      "roles": [
+        "winner"
+      ],
+      "direction_method": "direct_lgds_ratio",
+      "raw_path": "evidence/h100/boost/onpair_dw_k7_t256_b4.raw.csv",
+      "raw_sha256": "effa5d152cf6da3dbab0138cdc31ca1020176b52199863941802d1a1c74aa9f0",
+      "launches": [
+        {
+          "id": "0",
+          "raw": {
+            "total": 193035613.0,
+            "shared": 130598750.0,
+            "sread": 8980841.0,
+            "swrite": 110305146.0,
+            "atom": 0.0,
+            "tread": 47138253.0,
+            "twrite": 4794378.0,
+            "dread": 52942747.0,
+            "dwrite": 9480549.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 98.91
+          },
+          "tag_read_fraction": 0.9076808182508604,
+          "direct_read_fraction": 0.848124825065309,
+          "shares_pct": {
+            "global_reads": 27.432375138727203,
+            "global_writes": 4.91236272060241,
+            "shared_reads": 4.652427010968178,
+            "shared_writes": 57.14238128691829,
+            "other": 5.860453842783922
+          },
+          "peak_points": {
+            "global_reads": 27.133362249715073,
+            "global_writes": 4.858817966947843,
+            "shared_reads": 4.6017155565486245,
+            "shared_writes": 56.519529330890876,
+            "other": 5.796574895897577
+          },
+          "estimated_global_read_share_pct": 29.358698126265885,
+          "estimated_global_write_share_pct": 2.9860397330637256,
+          "estimate_minus_direct_read_share_pp": 1.9263229875386838,
+          "estimate_minus_direct_read_peak_pp": 1.905326066974512,
+          "direct_nonshared_closure_share_pp": 0.007028236805195112
+        },
+        {
+          "id": "1",
+          "raw": {
+            "total": 193053002.0,
+            "shared": 130597969.0,
+            "sread": 8981041.0,
+            "swrite": 110305261.0,
+            "atom": 0.0,
+            "tread": 47138097.0,
+            "twrite": 4794352.0,
+            "dread": 52955779.0,
+            "dwrite": 9478273.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 99.05
+          },
+          "tag_read_fraction": 0.9076809953638042,
+          "direct_read_fraction": 0.8481874442491735,
+          "shares_pct": {
+            "global_reads": 27.439912496552523,
+            "global_writes": 4.9113238753118225,
+            "shared_reads": 4.652111548102215,
+            "shared_writes": 57.13729382980535,
+            "other": 5.85935825022809
+          },
+          "peak_points": {
+            "global_reads": 27.179233327835274,
+            "global_writes": 4.86466629849636,
+            "shared_reads": 4.607916488395244,
+            "shared_writes": 56.594489538422195,
+            "other": 5.803694346850923
+          },
+          "estimated_global_read_share_pct": 29.364602431263535,
+          "estimated_global_write_share_pct": 2.986633940600811,
+          "estimate_minus_direct_read_share_pp": 1.9246899347110122,
+          "estimate_minus_direct_read_peak_pp": 1.9064053803312575,
+          "direct_nonshared_closure_share_pp": 0.01086799986668946
+        },
+        {
+          "id": "2",
+          "raw": {
+            "total": 193040730.0,
+            "shared": 130599651.0,
+            "sread": 8981006.0,
+            "swrite": 110305038.0,
+            "atom": 0.0,
+            "tread": 47138214.0,
+            "twrite": 4794405.0,
+            "dread": 52927496.0,
+            "dwrite": 9532971.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 99.03
+          },
+          "tag_read_fraction": 0.9076802770143366,
+          "direct_read_fraction": 0.8473759249990879,
+          "shares_pct": {
+            "global_reads": 27.409276309494956,
+            "global_writes": 4.936788171301403,
+            "shared_reads": 4.652389161603357,
+            "shared_writes": 57.14081064654076,
+            "other": 5.860735711059526
+          },
+          "peak_points": {
+            "global_reads": 27.14340632929286,
+            "global_writes": 4.88890132603978,
+            "shared_reads": 4.607260986735804,
+            "shared_writes": 56.58654478326931,
+            "other": 5.803886574662249
+          },
+          "estimated_global_read_share_pct": 29.359884768252833,
+          "estimated_global_write_share_pct": 2.9861797125435254,
+          "estimate_minus_direct_read_share_pp": 1.9506084587578778,
+          "estimate_minus_direct_read_peak_pp": 1.9316875567079266,
+          "direct_nonshared_closure_share_pp": -0.0100434763171482
+        },
+        {
+          "id": "3",
+          "raw": {
+            "total": 193052224.0,
+            "shared": 130598470.0,
+            "sread": 8980865.0,
+            "swrite": 110305357.0,
+            "atom": 0.0,
+            "tread": 47138174.0,
+            "twrite": 4794378.0,
+            "dread": 52945355.0,
+            "dwrite": 9475136.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 99.05
+          },
+          "tag_read_fraction": 0.9076806778145622,
+          "direct_read_fraction": 0.8482047185434668,
+          "shares_pct": {
+            "global_reads": 27.440019977989436,
+            "global_writes": 4.9106842542498175,
+            "shared_reads": 4.65203912905971,
+            "shared_writes": 57.137573820439385,
+            "other": 5.859682818261653
+          },
+          "peak_points": {
+            "global_reads": 27.179339788198536,
+            "global_writes": 4.864032753834444,
+            "shared_reads": 4.607844757333643,
+            "shared_writes": 56.594766869145204,
+            "other": 5.804015831488167
+          },
+          "estimated_global_read_share_pct": 29.36410914529735,
+          "estimated_global_write_share_pct": 2.986595086941902,
+          "estimate_minus_direct_read_share_pp": 1.924089167307915,
+          "estimate_minus_direct_read_peak_pp": 1.9058103202184897,
+          "direct_nonshared_closure_share_pp": 0.01723005273433162
+        }
+      ],
+      "shares_pct": {
+        "global_reads": 27.43039598069103,
+        "global_writes": 4.917789755366363,
+        "shared_reads": 4.652241712433365,
+        "shared_writes": 57.13951489592594,
+        "other": 5.860057655583298
+      },
+      "peak_points": {
+        "global_reads": 27.158835423760436,
+        "global_writes": 4.869104586329606,
+        "shared_reads": 4.606184447253328,
+        "shared_writes": 56.573832630431895,
+        "other": 5.802042912224729
+      },
+      "estimated_global_read_share_pct": {
+        "mean": 29.3618236177699,
+        "min": 29.358698126265885,
+        "max": 29.364602431263535
+      },
+      "estimated_global_write_share_pct": {
+        "mean": 2.986362118287491,
+        "min": 2.9860397330637256,
+        "max": 2.986633940600811
+      },
+      "estimate_minus_direct_read_share_pp": {
+        "mean": 1.931427637078872,
+        "min": 1.924089167307915,
+        "max": 1.9506084587578778
+      },
+      "estimate_minus_direct_read_peak_pp": {
+        "mean": 1.9123073310580465,
+        "min": 1.905326066974512,
+        "max": 1.9316875567079266
+      },
+      "direct_nonshared_closure_share_pp": {
+        "mean": 0.006270703272266998,
+        "min": -0.0100434763171482,
+        "max": 0.01723005273433162
+      }
+    },
+    {
+      "chip": "h100",
+      "kernel": "onpair_dw_k6_t256_b4",
+      "roles": [
+        "recommended"
+      ],
+      "direction_method": "direct_lgds_ratio",
+      "raw_path": "evidence/h100/boost/onpair_dw_k6_t256_b4.raw.csv",
+      "raw_sha256": "1436fb148fb3efd7f5341edf71f267440240bfdde805eb690ad49a8ff5cda112",
+      "launches": [
+        {
+          "id": "0",
+          "raw": {
+            "total": 194318244.0,
+            "shared": 130428103.0,
+            "sread": 10102074.0,
+            "swrite": 110262812.0,
+            "atom": 0.0,
+            "tread": 47212414.0,
+            "twrite": 5563766.0,
+            "dread": 53491540.0,
+            "dwrite": 10446312.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 93.64
+          },
+          "tag_read_fraction": 0.8945780842796883,
+          "direct_read_fraction": 0.8366177205953056,
+          "shares_pct": {
+            "global_reads": 27.507259756800128,
+            "global_writes": 5.371866610768325,
+            "shared_reads": 5.198726476758405,
+            "shared_writes": 56.74341725731116,
+            "other": 5.178729898361988
+          },
+          "peak_points": {
+            "global_reads": 25.75779803626764,
+            "global_writes": 5.030215894323459,
+            "shared_reads": 4.868087472836571,
+            "shared_writes": 53.13453591974617,
+            "other": 4.849362676826166
+          },
+          "estimated_global_read_share_pct": 29.412945878689175,
+          "estimated_global_write_share_pct": 3.466180488879279,
+          "estimate_minus_direct_read_share_pp": 1.9056861218890453,
+          "estimate_minus_direct_read_peak_pp": 1.784484484536902,
+          "direct_nonshared_closure_share_pp": -0.024553021382799238
+        },
+        {
+          "id": "1",
+          "raw": {
+            "total": 194324182.0,
+            "shared": 130425290.0,
+            "sread": 10103709.0,
+            "swrite": 110262233.0,
+            "atom": 0.0,
+            "tread": 47212401.0,
+            "twrite": 5563785.0,
+            "dread": 53507006.0,
+            "dwrite": 10447778.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 93.52
+          },
+          "tag_read_fraction": 0.8945777362539991,
+          "direct_read_fraction": 0.8366380535348223,
+          "shares_pct": {
+            "global_reads": 27.510855352995563,
+            "global_writes": 5.3717696205653755,
+            "shared_reads": 5.199408995839746,
+            "shared_writes": 56.74138538249449,
+            "other": 5.176580648104825
+          },
+          "peak_points": {
+            "global_reads": 25.72815192612145,
+            "global_writes": 5.023678949152739,
+            "shared_reads": 4.86248729290933,
+            "shared_writes": 53.06454360970884,
+            "other": 4.841138222107633
+          },
+          "estimated_global_read_share_pct": 29.416064210937357,
+          "estimated_global_write_share_pct": 3.4665607626235784,
+          "estimate_minus_direct_read_share_pp": 1.9052088579417972,
+          "estimate_minus_direct_read_peak_pp": 1.7817513239471685,
+          "direct_nonshared_closure_share_pp": -0.02876224637857989
+        },
+        {
+          "id": "2",
+          "raw": {
+            "total": 194357419.0,
+            "shared": 130426758.0,
+            "sread": 10104028.0,
+            "swrite": 110263347.0,
+            "atom": 0.0,
+            "tread": 47212479.0,
+            "twrite": 5563771.0,
+            "dread": 53536654.0,
+            "dwrite": 10355510.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 93.32
+          },
+          "tag_read_fraction": 0.8945781293669027,
+          "direct_read_fraction": 0.8379220650594962,
+          "shares_pct": {
+            "global_reads": 27.562061567476665,
+            "global_writes": 5.331285817425577,
+            "shared_reads": 5.198683977173004,
+            "shared_writes": 56.732255227159605,
+            "other": 5.175713410765143
+          },
+          "peak_points": {
+            "global_reads": 25.720915854769224,
+            "global_writes": 4.975155924821548,
+            "shared_reads": 4.851411887497847,
+            "shared_writes": 52.94254057798534,
+            "other": 4.829975754926031
+          },
+          "estimated_global_read_share_pct": 29.425669172201548,
+          "estimated_global_write_share_pct": 3.4676782127006924,
+          "estimate_minus_direct_read_share_pp": 1.8636076047248844,
+          "estimate_minus_direct_read_peak_pp": 1.7391186167292618,
+          "direct_nonshared_closure_share_pp": 0.019807322096616235
+        },
+        {
+          "id": "3",
+          "raw": {
+            "total": 194327898.0,
+            "shared": 130426721.0,
+            "sread": 10101482.0,
+            "swrite": 110263649.0,
+            "atom": 0.0,
+            "tread": 47212422.0,
+            "twrite": 5563759.0,
+            "dread": 53482139.0,
+            "dwrite": 10482560.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 93.82
+          },
+          "tag_read_fraction": 0.8945782189128084,
+          "direct_read_fraction": 0.8361196071601932,
+          "shares_pct": {
+            "global_reads": 27.494264879206362,
+            "global_writes": 5.388907149958483,
+            "shared_reads": 5.198163569905954,
+            "shared_writes": 56.7410290209592,
+            "other": 5.177635379969993
+          },
+          "peak_points": {
+            "global_reads": 25.79511930967141,
+            "global_writes": 5.055872688091048,
+            "shared_reads": 4.8769170612857655,
+            "shared_writes": 53.23443342746392,
+            "other": 4.8576575134878475
+          },
+          "estimated_global_read_share_pct": 29.41656946605377,
+          "estimated_global_write_share_pct": 3.4666025631110777,
+          "estimate_minus_direct_read_share_pp": 1.922304586847405,
+          "estimate_minus_direct_read_peak_pp": 1.8035061633802352,
+          "direct_nonshared_closure_share_pp": -0.03268804976216024
+        }
+      ],
+      "shares_pct": {
+        "global_reads": 27.51861038911968,
+        "global_writes": 5.36595729967944,
+        "shared_reads": 5.198745754919277,
+        "shared_writes": 56.73952172198111,
+        "other": 5.177164834300488
+      },
+      "peak_points": {
+        "global_reads": 25.75049628170743,
+        "global_writes": 5.021230864097198,
+        "shared_reads": 4.864725928632378,
+        "shared_writes": 53.094013383726065,
+        "other": 4.8445335418369195
+      },
+      "estimated_global_read_share_pct": {
+        "mean": 29.41781218197046,
+        "min": 29.412945878689175,
+        "max": 29.425669172201548
+      },
+      "estimated_global_write_share_pct": {
+        "mean": 3.466755506828657,
+        "min": 3.466180488879279,
+        "max": 3.4676782127006924
+      },
+      "estimate_minus_direct_read_share_pp": {
+        "mean": 1.899201792850783,
+        "min": 1.8636076047248844,
+        "max": 1.922304586847405
+      },
+      "estimate_minus_direct_read_peak_pp": {
+        "mean": 1.777215147148392,
+        "min": 1.7391186167292618,
+        "max": 1.8035061633802352
+      },
+      "direct_nonshared_closure_share_pp": {
+        "mean": -0.016548998856730786,
+        "min": -0.03268804976216024,
+        "max": 0.019807322096616235
+      }
+    },
+    {
+      "chip": "b300",
+      "kernel": "onpair_ds_k6_t128_b8_s14",
+      "roles": [
+        "winner"
+      ],
+      "direction_method": "direct_lgds_ratio",
+      "raw_path": "evidence/b300/boost/onpair_ds_k6_t128_b8_s14.raw.csv",
+      "raw_sha256": "2a0e8ca06ce89f23887b3b8d8cbf55aadd3b5e6a844c87f7818aa4db8c360f71",
+      "launches": [
+        {
+          "id": "0",
+          "raw": {
+            "total": 192788531.0,
+            "shared": 128364282.0,
+            "sread": 12219917.0,
+            "swrite": 106134825.0,
+            "atom": 0.0,
+            "tread": 57612727.0,
+            "twrite": 5565854.0,
+            "dread": 53926614.0,
+            "dwrite": 10504398.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 98.72
+          },
+          "tag_read_fraction": 0.9119028330186777,
+          "direct_read_fraction": 0.8369667389362129,
+          "shares_pct": {
+            "global_reads": 27.968963358066446,
+            "global_writes": 5.4480914147613,
+            "shared_reads": 6.338508279831231,
+            "shared_writes": 55.052457970126866,
+            "other": 5.191978977214158
+          },
+          "peak_points": {
+            "global_reads": 27.610960627083195,
+            "global_writes": 5.378355844652354,
+            "shared_reads": 6.257375373849392,
+            "shared_writes": 54.34778650810924,
+            "other": 5.125521646305817
+          },
+          "estimated_global_read_share_pct": 30.473106918481946,
+          "estimated_global_write_share_pct": 2.9439478543457995,
+          "estimate_minus_direct_read_share_pp": 2.5041435604155002,
+          "estimate_minus_direct_read_peak_pp": 2.4720905228421817,
+          "direct_nonshared_closure_share_pp": -0.0035079887610119298
+        },
+        {
+          "id": "1",
+          "raw": {
+            "total": 192770798.0,
+            "shared": 128367689.0,
+            "sread": 12220413.0,
+            "swrite": 106132020.0,
+            "atom": 0.0,
+            "tread": 57612722.0,
+            "twrite": 5565852.0,
+            "dread": 53954572.0,
+            "dwrite": 10469387.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 98.85
+          },
+          "tag_read_fraction": 0.9119028549140726,
+          "direct_read_fraction": 0.837492337284022,
+          "shares_pct": {
+            "global_reads": 27.979917520893196,
+            "global_writes": 5.429244897991432,
+            "shared_reads": 6.339348660060016,
+            "shared_writes": 55.05606715390575,
+            "other": 5.1954217671496075
+          },
+          "peak_points": {
+            "global_reads": 27.65814846940292,
+            "global_writes": 5.366808581664531,
+            "shared_reads": 6.266446150469324,
+            "shared_writes": 54.422922381635836,
+            "other": 5.135674416827388
+          },
+          "estimated_global_read_share_pct": 30.465910590068837,
+          "estimated_global_write_share_pct": 2.943251828815791,
+          "estimate_minus_direct_read_share_pp": 2.4859930691756413,
+          "estimate_minus_direct_read_peak_pp": 2.4574041488801215,
+          "direct_nonshared_closure_share_pp": -0.010815953565747027
+        },
+        {
+          "id": "2",
+          "raw": {
+            "total": 192786855.0,
+            "shared": 128366176.0,
+            "sread": 12220634.0,
+            "swrite": 106130998.0,
+            "atom": 0.0,
+            "tread": 57612722.0,
+            "twrite": 5565857.0,
+            "dread": 53940114.0,
+            "dwrite": 10482700.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 98.88
+          },
+          "tag_read_fraction": 0.9119027827453986,
+          "direct_read_fraction": 0.8372827986060963,
+          "shares_pct": {
+            "global_reads": 27.978217913884727,
+            "global_writes": 5.437275585399751,
+            "shared_reads": 6.338935297222417,
+            "shared_writes": 55.05095147695625,
+            "other": 5.194619726536853
+          },
+          "peak_points": {
+            "global_reads": 27.664861873249215,
+            "global_writes": 5.376378098843273,
+            "shared_reads": 6.267939221893525,
+            "shared_writes": 54.43438082041433,
+            "other": 5.13643998559964
+          },
+          "estimated_global_read_share_pct": 30.471681508808295,
+          "estimated_global_write_share_pct": 2.9438119904761857,
+          "estimate_minus_direct_read_share_pp": 2.4934635949235657,
+          "estimate_minus_direct_read_peak_pp": 2.465536802660422,
+          "direct_nonshared_closure_share_pp": -0.0011074406499343536
+        },
+        {
+          "id": "3",
+          "raw": {
+            "total": 192818197.0,
+            "shared": 128364157.0,
+            "sread": 12221008.0,
+            "swrite": 106134502.0,
+            "atom": 0.0,
+            "tread": 57612736.0,
+            "twrite": 5565856.0,
+            "dread": 53932872.0,
+            "dwrite": 10478016.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 98.91
+          },
+          "tag_read_fraction": 0.9119028167009483,
+          "direct_read_fraction": 0.8373253913220386,
+          "shares_pct": {
+            "global_reads": 27.989580394886868,
+            "global_writes": 5.437783309795013,
+            "shared_reads": 6.3380988880421905,
+            "shared_writes": 55.04382037137294,
+            "other": 5.190717035902996
+          },
+          "peak_points": {
+            "global_reads": 27.6844939685826,
+            "global_writes": 5.378511471718248,
+            "shared_reads": 6.2690136101625304,
+            "shared_writes": 54.44384272932497,
+            "other": 5.134138220211654
+          },
+          "estimated_global_read_share_pct": 30.482507117186454,
+          "estimated_global_write_share_pct": 2.9448565874954276,
+          "estimate_minus_direct_read_share_pp": 2.492926722299586,
+          "estimate_minus_direct_read_peak_pp": 2.4657538210265204,
+          "direct_nonshared_closure_share_pp": 0.022379630486846634
+        }
+      ],
+      "shares_pct": {
+        "global_reads": 27.97916979693281,
+        "global_writes": 5.438098801986874,
+        "shared_reads": 6.338722781288963,
+        "shared_writes": 55.05082424309045,
+        "other": 5.193184376700904
+      },
+      "peak_points": {
+        "global_reads": 27.654616234579482,
+        "global_writes": 5.375013499219602,
+        "shared_reads": 6.265193589093693,
+        "shared_writes": 54.412233109871096,
+        "other": 5.132943567236125
+      },
+      "estimated_global_read_share_pct": {
+        "mean": 30.473301533636384,
+        "min": 30.465910590068837,
+        "max": 30.482507117186454
+      },
+      "estimated_global_write_share_pct": {
+        "mean": 2.943967065283301,
+        "min": 2.943251828815791,
+        "max": 2.9448565874954276
+      },
+      "estimate_minus_direct_read_share_pp": {
+        "mean": 2.494131736703573,
+        "min": 2.4859930691756413,
+        "max": 2.5041435604155002
+      },
+      "estimate_minus_direct_read_peak_pp": {
+        "mean": 2.4651963238523114,
+        "min": 2.4574041488801215,
+        "max": 2.4720905228421817
+      },
+      "direct_nonshared_closure_share_pp": {
+        "mean": 0.0017370618775383309,
+        "min": -0.010815953565747027,
+        "max": 0.022379630486846634
+      }
+    },
+    {
+      "chip": "b300",
+      "kernel": "onpair_dw_k6_t256_b4",
+      "roles": [
+        "recommended"
+      ],
+      "direction_method": "direct_lgds_ratio",
+      "raw_path": "evidence/b300/boost/onpair_dw_k6_t256_b4.raw.csv",
+      "raw_sha256": "43c6c1d3b2eaf2a39495a70baeefc82b038d07e2e38115e1d8b5680206e70374",
+      "launches": [
+        {
+          "id": "0",
+          "raw": {
+            "total": 194110772.0,
+            "shared": 130433100.0,
+            "sread": 10096440.0,
+            "swrite": 110277474.0,
+            "atom": 0.0,
+            "tread": 47212000.0,
+            "twrite": 5565979.0,
+            "dread": 53204778.0,
+            "dwrite": 10463141.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 97.71
+          },
+          "tag_read_fraction": 0.8945397473442475,
+          "direct_read_fraction": 0.8356607037839575,
+          "shares_pct": {
+            "global_reads": 27.413691497164315,
+            "global_writes": 5.391119561956096,
+            "shared_reads": 5.201380580774775,
+            "shared_writes": 56.81161991360273,
+            "other": 5.182188446502082
+          },
+          "peak_points": {
+            "global_reads": 26.78591796187925,
+            "global_writes": 5.267662923987301,
+            "shared_reads": 5.082268965475032,
+            "shared_writes": 55.51063381758123,
+            "other": 5.063516331077184
+          },
+          "estimated_global_read_share_pct": 29.345207396501348,
+          "estimated_global_write_share_pct": 3.4596036626190636,
+          "estimate_minus_direct_read_share_pp": 1.931515899337032,
+          "estimate_minus_direct_read_peak_pp": 1.8872841852422138,
+          "direct_nonshared_closure_share_pp": 0.005024450678090137
+        },
+        {
+          "id": "1",
+          "raw": {
+            "total": 194129857.0,
+            "shared": 130431835.0,
+            "sread": 10095534.0,
+            "swrite": 110280012.0,
+            "atom": 0.0,
+            "tread": 47212169.0,
+            "twrite": 5566013.0,
+            "dread": 53223573.0,
+            "dwrite": 10436965.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 97.9
+          },
+          "tag_read_fraction": 0.8945395087689834,
+          "direct_read_fraction": 0.8360528307190869,
+          "shares_pct": {
+            "global_reads": 27.432622898551188,
+            "global_writes": 5.379445777726674,
+            "shared_reads": 5.200402532620214,
+            "shared_writes": 56.80734210812302,
+            "other": 5.180186682978909
+          },
+          "peak_points": {
+            "global_reads": 26.856537817681616,
+            "global_writes": 5.266477416394414,
+            "shared_reads": 5.09119407943519,
+            "shared_writes": 55.61438792385243,
+            "other": 5.071402762636352
+          },
+          "estimated_global_read_share_pct": 29.351691795371742,
+          "estimated_global_write_share_pct": 3.460376880906117,
+          "estimate_minus_direct_read_share_pp": 1.9190688968205565,
+          "estimate_minus_direct_read_peak_pp": 1.8787684499873247,
+          "direct_nonshared_closure_share_pp": 0.01930872488099551
+        },
+        {
+          "id": "2",
+          "raw": {
+            "total": 194118190.0,
+            "shared": 130432352.0,
+            "sread": 10095749.0,
+            "swrite": 110280010.0,
+            "atom": 0.0,
+            "tread": 47212021.0,
+            "twrite": 5565997.0,
+            "dread": 53199875.0,
+            "dwrite": 10483647.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 97.88
+          },
+          "tag_read_fraction": 0.8945394842223897,
+          "direct_read_fraction": 0.8353789697749443,
+          "shares_pct": {
+            "global_reads": 27.406916238861488,
+            "global_writes": 5.400847938210221,
+            "shared_reads": 5.200825847387099,
+            "shared_writes": 56.81075534446308,
+            "other": 5.180654631078108
+          },
+          "peak_points": {
+            "global_reads": 26.82588961459762,
+            "global_writes": 5.2863499619201635,
+            "shared_reads": 5.090568339422492,
+            "shared_writes": 55.60636733116046,
+            "other": 5.070824752899251
+          },
+          "estimated_global_read_share_pct": 29.34784044544752,
+          "estimated_global_write_share_pct": 3.4599237316241886,
+          "estimate_minus_direct_read_share_pp": 1.940924206586033,
+          "estimate_minus_direct_read_peak_pp": 1.8997766134064091,
+          "direct_nonshared_closure_share_pp": 0.0011930875720611242
+        },
+        {
+          "id": "3",
+          "raw": {
+            "total": 194126453.0,
+            "shared": 130432016.0,
+            "sread": 10096693.0,
+            "swrite": 110278433.0,
+            "atom": 0.0,
+            "tread": 47212082.0,
+            "twrite": 5565996.0,
+            "dread": 53216157.0,
+            "dwrite": 10454094.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 97.91
+          },
+          "tag_read_fraction": 0.8945396230609232,
+          "direct_read_fraction": 0.8358088143864864,
+          "shares_pct": {
+            "global_reads": 27.423553590599397,
+            "global_writes": 5.387243709653136,
+            "shared_reads": 5.2010907550039045,
+            "shared_writes": 56.8075248353711,
+            "other": 5.180587109372467
+          },
+          "peak_points": {
+            "global_reads": 26.85040132055587,
+            "global_writes": 5.274650316121385,
+            "shared_reads": 5.0923879582243226,
+            "shared_writes": 55.62024756631184,
+            "other": 5.072312838786582
+          },
+          "estimated_global_read_share_pct": 29.350558249296256,
+          "estimated_global_write_share_pct": 3.4602390509562766,
+          "estimate_minus_direct_read_share_pp": 1.9270046586968592,
+          "estimate_minus_direct_read_peak_pp": 1.8867302613300947,
+          "direct_nonshared_closure_share_pp": 0.01245888936115265
+        }
+      ],
+      "shares_pct": {
+        "global_reads": 27.419196056294098,
+        "global_writes": 5.3896642468865315,
+        "shared_reads": 5.200924928946498,
+        "shared_writes": 56.80931055038998,
+        "other": 5.180904217482891
+      },
+      "peak_points": {
+        "global_reads": 26.82968667867859,
+        "global_writes": 5.273785154605816,
+        "shared_reads": 5.089104835639259,
+        "shared_writes": 55.58790915972649,
+        "other": 5.069514171349843
+      },
+      "estimated_global_read_share_pct": {
+        "mean": 29.34882447165422,
+        "min": 29.345207396501348,
+        "max": 29.351691795371742
+      },
+      "estimated_global_write_share_pct": {
+        "mean": 3.4600358315264117,
+        "min": 3.4596036626190636,
+        "max": 3.460376880906117
+      },
+      "estimate_minus_direct_read_share_pp": {
+        "mean": 1.9296284153601202,
+        "min": 1.9190688968205565,
+        "max": 1.940924206586033
+      },
+      "estimate_minus_direct_read_peak_pp": {
+        "mean": 1.8881398774915106,
+        "min": 1.8787684499873247,
+        "max": 1.8997766134064091
+      },
+      "direct_nonshared_closure_share_pp": {
+        "mean": 0.009496288123074854,
+        "min": 0.0011930875720611242,
+        "max": 0.01930872488099551
+      }
+    },
+    {
+      "chip": "l40s",
+      "kernel": "onpair_dg_k8_t128_b2",
+      "roles": [
+        "winner"
+      ],
+      "direction_method": "estimated_tag_ratio",
+      "raw_path": "evidence/l40s/boost/onpair_dg_k8_t128_b2.raw.csv",
+      "raw_sha256": "810bbf93f9e4ef9c3a8bd41680cca3d927ac0f05253cc9a4da4d36960e7c10ce",
+      "launches": [
+        {
+          "id": "0",
+          "raw": {
+            "total": 227980640.0,
+            "shared": 128943814.0,
+            "sread": 11298856.0,
+            "swrite": 107853991.0,
+            "atom": 0.0,
+            "tread": 63520285.0,
+            "twrite": 4729558.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 35.31
+          },
+          "tag_read_fraction": 0.9307022874763243,
+          "direct_read_fraction": null,
+          "shares_pct": {
+            "global_reads": 40.430538532830994,
+            "global_writes": 3.0103545184386222,
+            "shared_reads": 4.956059426800451,
+            "shared_writes": 47.308399081606225,
+            "other": 4.294648440323705
+          },
+          "peak_points": {
+            "global_reads": 14.276023155942626,
+            "global_writes": 1.0629561804606775,
+            "shared_reads": 1.7499845836032393,
+            "shared_writes": 16.704595715715158,
+            "other": 1.5164403642783002
+          },
+          "estimated_global_read_share_pct": 40.430538532830994,
+          "estimated_global_write_share_pct": 3.0103545184386222,
+          "estimate_minus_direct_read_share_pp": null,
+          "estimate_minus_direct_read_peak_pp": null,
+          "direct_nonshared_closure_share_pp": null
+        },
+        {
+          "id": "1",
+          "raw": {
+            "total": 227270565.0,
+            "shared": 128966855.0,
+            "sread": 11309699.0,
+            "swrite": 107879442.0,
+            "atom": 0.0,
+            "tread": 63550496.0,
+            "twrite": 4730574.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 35.34
+          },
+          "tag_read_fraction": 0.9307190997446291,
+          "direct_read_fraction": null,
+          "shares_pct": {
+            "global_reads": 40.25736481658198,
+            "global_writes": 2.99667910239186,
+            "shared_reads": 4.976314904660003,
+            "shared_writes": 47.46740608490149,
+            "other": 4.30223509146466
+          },
+          "peak_points": {
+            "global_reads": 14.226952726180075,
+            "global_writes": 1.0590263947852834,
+            "shared_reads": 1.7586296873068454,
+            "shared_writes": 16.77498131040419,
+            "other": 1.5204098813236113
+          },
+          "estimated_global_read_share_pct": 40.25736481658198,
+          "estimated_global_write_share_pct": 2.99667910239186,
+          "estimate_minus_direct_read_share_pp": null,
+          "estimate_minus_direct_read_peak_pp": null,
+          "direct_nonshared_closure_share_pp": null
+        },
+        {
+          "id": "2",
+          "raw": {
+            "total": 226898795.0,
+            "shared": 128977241.0,
+            "sread": 11300616.0,
+            "swrite": 107912561.0,
+            "atom": 0.0,
+            "tread": 63547717.0,
+            "twrite": 4730739.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 35.13
+          },
+          "tag_read_fraction": 0.9307140307917918,
+          "direct_read_fraction": null,
+          "shares_pct": {
+            "global_reads": 40.16635003492906,
+            "global_writes": 2.990139183094337,
+            "shared_reads": 4.98046540969951,
+            "shared_writes": 47.55977703627734,
+            "other": 4.303268335999757
+          },
+          "peak_points": {
+            "global_reads": 14.11043876727058,
+            "global_writes": 1.0504358950210406,
+            "shared_reads": 1.7496374984274379,
+            "shared_writes": 16.70774967284423,
+            "other": 1.5117381664367147
+          },
+          "estimated_global_read_share_pct": 40.16635003492906,
+          "estimated_global_write_share_pct": 2.990139183094337,
+          "estimate_minus_direct_read_share_pp": null,
+          "estimate_minus_direct_read_peak_pp": null,
+          "direct_nonshared_closure_share_pp": null
+        },
+        {
+          "id": "3",
+          "raw": {
+            "total": 227789028.0,
+            "shared": 128955389.0,
+            "sread": 11306597.0,
+            "swrite": 107848944.0,
+            "atom": 0.0,
+            "tread": 63539517.0,
+            "twrite": 4731340.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 35.11
+          },
+          "tag_read_fraction": 0.9306975156324755,
+          "direct_read_fraction": null,
+          "shares_pct": {
+            "global_reads": 40.381322614984306,
+            "global_writes": 3.00691248473261,
+            "shared_reads": 4.963626694082913,
+            "shared_writes": 47.34597840243649,
+            "other": 4.302159803763683
+          },
+          "peak_points": {
+            "global_reads": 14.17788237012099,
+            "global_writes": 1.0557269733896193,
+            "shared_reads": 1.7427293322925106,
+            "shared_writes": 16.62317301709545,
+            "other": 1.510488307101429
+          },
+          "estimated_global_read_share_pct": 40.381322614984306,
+          "estimated_global_write_share_pct": 3.00691248473261,
+          "estimate_minus_direct_read_share_pp": null,
+          "estimate_minus_direct_read_peak_pp": null,
+          "direct_nonshared_closure_share_pp": null
+        }
+      ],
+      "shares_pct": {
+        "global_reads": 40.30889399983158,
+        "global_writes": 3.001021322164357,
+        "shared_reads": 4.969116608810719,
+        "shared_writes": 47.420390151305384,
+        "other": 4.300577917887951
+      },
+      "peak_points": {
+        "global_reads": 14.197824254878569,
+        "global_writes": 1.057036360914155,
+        "shared_reads": 1.7502452754075084,
+        "shared_writes": 16.702624929014757,
+        "other": 1.5147691797850138
+      },
+      "estimated_global_read_share_pct": {
+        "mean": 40.30889399983158,
+        "min": 40.16635003492906,
+        "max": 40.430538532830994
+      },
+      "estimated_global_write_share_pct": {
+        "mean": 3.001021322164357,
+        "min": 2.990139183094337,
+        "max": 3.0103545184386222
+      },
+      "estimate_minus_direct_read_share_pp": null,
+      "estimate_minus_direct_read_peak_pp": null,
+      "direct_nonshared_closure_share_pp": null
+    },
+    {
+      "chip": "l40s",
+      "kernel": "onpair_dw_k6_t256_b4",
+      "roles": [
+        "recommended"
+      ],
+      "direction_method": "estimated_tag_ratio",
+      "raw_path": "evidence/l40s/boost/onpair_dw_k6_t256_b4.raw.csv",
+      "raw_sha256": "afd80fd29ffa2295bd0fa7b1ac6f3408c4848025a7d6d57b852222fcce768606",
+      "launches": [
+        {
+          "id": "0",
+          "raw": {
+            "total": 232868950.0,
+            "shared": 133211190.0,
+            "sread": 10473429.0,
+            "swrite": 112590050.0,
+            "atom": 0.0,
+            "tread": 50453323.0,
+            "twrite": 5831218.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 34.9
+          },
+          "tag_read_fraction": 0.8963975205909559,
+          "direct_read_fraction": null,
+          "shares_pct": {
+            "global_reads": 38.361906545139895,
+            "global_writes": 4.433734522507814,
+            "shared_reads": 4.497563543787182,
+            "shared_writes": 48.34910364821072,
+            "other": 4.357691740354393
+          },
+          "peak_points": {
+            "global_reads": 13.388305384253822,
+            "global_writes": 1.5473733483552272,
+            "shared_reads": 1.5696496767817265,
+            "shared_writes": 16.87383717322554,
+            "other": 1.520834417383683
+          },
+          "estimated_global_read_share_pct": 38.361906545139895,
+          "estimated_global_write_share_pct": 4.433734522507814,
+          "estimate_minus_direct_read_share_pp": null,
+          "estimate_minus_direct_read_peak_pp": null,
+          "direct_nonshared_closure_share_pp": null
+        },
+        {
+          "id": "1",
+          "raw": {
+            "total": 232489370.0,
+            "shared": 133213739.0,
+            "sread": 10499053.0,
+            "swrite": 112655671.0,
+            "atom": 0.0,
+            "tread": 50429671.0,
+            "twrite": 5828520.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 34.61
+          },
+          "tag_read_fraction": 0.8963969531121255,
+          "direct_read_fraction": null,
+          "shares_pct": {
+            "global_reads": 38.2771793595052,
+            "global_writes": 4.423969084399999,
+            "shared_reads": 4.5159281906093165,
+            "shared_writes": 48.45626748440154,
+            "other": 4.32665588108394
+          },
+          "peak_points": {
+            "global_reads": 13.247731776324748,
+            "global_writes": 1.5311357001108394,
+            "shared_reads": 1.5629627467698846,
+            "shared_writes": 16.770714176351373,
+            "other": 1.4974556004431514
+          },
+          "estimated_global_read_share_pct": 38.2771793595052,
+          "estimated_global_write_share_pct": 4.423969084399999,
+          "estimate_minus_direct_read_share_pp": null,
+          "estimate_minus_direct_read_peak_pp": null,
+          "direct_nonshared_closure_share_pp": null
+        },
+        {
+          "id": "2",
+          "raw": {
+            "total": 232321749.0,
+            "shared": 133223213.0,
+            "sread": 10509693.0,
+            "swrite": 112650574.0,
+            "atom": 0.0,
+            "tread": 50399924.0,
+            "twrite": 5829075.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 34.35
+          },
+          "tag_read_fraction": 0.8963332959208469,
+          "direct_read_fraction": null,
+          "shares_pct": {
+            "global_reads": 38.23375029507491,
+            "global_writes": 4.4219788506281015,
+            "shared_reads": 4.523766304806873,
+            "shared_writes": 48.48903492027343,
+            "other": 4.331469629216677
+          },
+          "peak_points": {
+            "global_reads": 13.133293226358232,
+            "global_writes": 1.5189497351907528,
+            "shared_reads": 1.5539137257011608,
+            "shared_writes": 16.655983495113922,
+            "other": 1.4878598176359288
+          },
+          "estimated_global_read_share_pct": 38.23375029507491,
+          "estimated_global_write_share_pct": 4.4219788506281015,
+          "estimate_minus_direct_read_share_pp": null,
+          "estimate_minus_direct_read_peak_pp": null,
+          "direct_nonshared_closure_share_pp": null
+        },
+        {
+          "id": "3",
+          "raw": {
+            "total": 232660091.0,
+            "shared": 133167421.0,
+            "sread": 10501795.0,
+            "swrite": 112628585.0,
+            "atom": 0.0,
+            "tread": 50327407.0,
+            "twrite": 5820479.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 34.51
+          },
+          "tag_read_fraction": 0.8963366314450378,
+          "direct_read_fraction": null,
+          "shares_pct": {
+            "global_reads": 38.33013401566699,
+            "global_writes": 4.432967112837254,
+            "shared_reads": 4.513793042400211,
+            "shared_writes": 48.409069435118546,
+            "other": 4.3140363939769975
+          },
+          "peak_points": {
+            "global_reads": 13.227729248806678,
+            "global_writes": 1.5298169506401362,
+            "shared_reads": 1.5577099789323128,
+            "shared_writes": 16.70596986205941,
+            "other": 1.4887739595614615
+          },
+          "estimated_global_read_share_pct": 38.33013401566699,
+          "estimated_global_write_share_pct": 4.432967112837254,
+          "estimate_minus_direct_read_share_pp": null,
+          "estimate_minus_direct_read_peak_pp": null,
+          "direct_nonshared_closure_share_pp": null
+        }
+      ],
+      "shares_pct": {
+        "global_reads": 38.300742553846746,
+        "global_writes": 4.428162392593292,
+        "shared_reads": 4.5127627704008955,
+        "shared_writes": 48.42586887200106,
+        "other": 4.332463411158002
+      },
+      "peak_points": {
+        "global_reads": 13.24926490893587,
+        "global_writes": 1.531818933574239,
+        "shared_reads": 1.5610590320462712,
+        "shared_writes": 16.75162617668756,
+        "other": 1.498730948756056
+      },
+      "estimated_global_read_share_pct": {
+        "mean": 38.300742553846746,
+        "min": 38.23375029507491,
+        "max": 38.361906545139895
+      },
+      "estimated_global_write_share_pct": {
+        "mean": 4.428162392593292,
+        "min": 4.4219788506281015,
+        "max": 4.433734522507814
+      },
+      "estimate_minus_direct_read_share_pp": null,
+      "estimate_minus_direct_read_peak_pp": null,
+      "direct_nonshared_closure_share_pp": null
+    },
+    {
+      "chip": "rtxpro",
+      "kernel": "onpair_ds_k8_t128_b4_s12",
+      "roles": [
+        "winner"
+      ],
+      "direction_method": "direct_lgds_ratio",
+      "raw_path": "evidence/rtxpro/boost/onpair_ds_k8_t128_b4_s12.raw.csv",
+      "raw_sha256": "c4e7d8a36f141eaf2f29c4f2c1b9e3070f6f1752254e08c628d1f13bb1395073",
+      "launches": [
+        {
+          "id": "0",
+          "raw": {
+            "total": 234971647.0,
+            "shared": 131268149.0,
+            "sread": 11747167.0,
+            "swrite": 109663686.0,
+            "atom": 0.0,
+            "tread": 63359182.0,
+            "twrite": 4913088.0,
+            "dread": 93612749.0,
+            "dwrite": 9877823.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 62.96
+          },
+          "tag_read_fraction": 0.9280368442414468,
+          "direct_read_fraction": 0.9045534022171604,
+          "shares_pct": {
+            "global_reads": 39.92198766761016,
+            "global_writes": 4.212485288609953,
+            "shared_reads": 4.999397650730175,
+            "shared_writes": 46.67102920719622,
+            "other": 4.195100185853487
+          },
+          "peak_points": {
+            "global_reads": 25.134883435527357,
+            "global_writes": 2.6521807377088265,
+            "shared_reads": 3.147620760899718,
+            "shared_writes": 29.38407998885074,
+            "other": 2.6412350770133552
+          },
+          "estimated_global_read_share_pct": 40.95841700454999,
+          "estimated_global_write_share_pct": 3.1760559516701203,
+          "estimate_minus_direct_read_share_pp": 1.0364293369398323,
+          "estimate_minus_direct_read_peak_pp": 0.6525359105373184,
+          "direct_nonshared_closure_share_pp": 0.09061774163756872
+        },
+        {
+          "id": "1",
+          "raw": {
+            "total": 234957865.0,
+            "shared": 131254745.0,
+            "sread": 11759484.0,
+            "swrite": 109683514.0,
+            "atom": 0.0,
+            "tread": 63349969.0,
+            "twrite": 4911392.0,
+            "dread": 93683973.0,
+            "dwrite": 10030885.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 62.73
+          },
+          "tag_read_fraction": 0.9280501893303885,
+          "direct_read_fraction": 0.9032840116311975,
+          "shares_pct": {
+            "global_reads": 39.86815689369303,
+            "global_writes": 4.268743992770162,
+            "shared_reads": 5.004933118540212,
+            "shared_writes": 46.68220576485065,
+            "other": 4.175960230145946
+          },
+          "peak_points": {
+            "global_reads": 25.00929481941364,
+            "global_writes": 2.677783106664722,
+            "shared_reads": 3.1395945452602745,
+            "shared_writes": 29.283747676290815,
+            "other": 2.6195798523705514
+          },
+          "estimated_global_read_share_pct": 40.961259224138765,
+          "estimated_global_write_share_pct": 3.175641662324434,
+          "estimate_minus_direct_read_share_pp": 1.0931023304457275,
+          "estimate_minus_direct_read_peak_pp": 0.6857030918886048,
+          "direct_nonshared_closure_share_pp": -0.0049957893514226475
+        },
+        {
+          "id": "2",
+          "raw": {
+            "total": 235033380.0,
+            "shared": 131238119.0,
+            "sread": 11753832.0,
+            "swrite": 109658194.0,
+            "atom": 0.0,
+            "tread": 63375179.0,
+            "twrite": 4911743.0,
+            "dread": 93906022.0,
+            "dwrite": 9759186.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 62.43
+          },
+          "tag_read_fraction": 0.9280719813378029,
+          "direct_read_fraction": 0.9058586174833122,
+          "shares_pct": {
+            "global_reads": 40.00445878401594,
+            "global_writes": 4.157464513857754,
+            "shared_reads": 5.00092029481089,
+            "shared_writes": 46.656434077576556,
+            "other": 4.180722329738865
+          },
+          "peak_points": {
+            "global_reads": 24.974783618861153,
+            "global_writes": 2.5955050960013955,
+            "shared_reads": 3.1220745400504386,
+            "shared_writes": 29.127611794631044,
+            "other": 2.6100249504559736
+          },
+          "estimated_global_read_share_pct": 40.985443654745715,
+          "estimated_global_write_share_pct": 3.1764796431279763,
+          "estimate_minus_direct_read_share_pp": 0.9809848707297776,
+          "estimate_minus_direct_read_peak_pp": 0.6124288547966001,
+          "direct_nonshared_closure_share_pp": 0.05533384236741181
+        },
+        {
+          "id": "3",
+          "raw": {
+            "total": 235158750.0,
+            "shared": 131266143.0,
+            "sread": 11747516.0,
+            "swrite": 109683900.0,
+            "atom": 0.0,
+            "tread": 63392321.0,
+            "twrite": 4912634.0,
+            "dread": 93843046.0,
+            "dwrite": 9703791.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 62.7
+          },
+          "tag_read_fraction": 0.9280779264110488,
+          "direct_read_fraction": 0.9062859737569773,
+          "shares_pct": {
+            "global_reads": 40.03951054389682,
+            "global_writes": 4.140264607995257,
+            "shared_reads": 4.995568312895013,
+            "shared_writes": 46.64249150839592,
+            "other": 4.182165026816991
+          },
+          "peak_points": {
+            "global_reads": 25.104773111023306,
+            "global_writes": 2.595945909213026,
+            "shared_reads": 3.132221332185173,
+            "shared_writes": 29.244842175764244,
+            "other": 2.622217471814253
+          },
+          "estimated_global_read_share_pct": 41.00227411227437,
+          "estimated_global_write_share_pct": 3.1775010396176993,
+          "estimate_minus_direct_read_share_pp": 0.9627635683775576,
+          "estimate_minus_direct_read_peak_pp": 0.6036527573727287,
+          "direct_nonshared_closure_share_pp": 0.14703684213323978
+        }
+      ],
+      "shares_pct": {
+        "global_reads": 39.95852847230399,
+        "global_writes": 4.194739600808282,
+        "shared_reads": 5.000204844244072,
+        "shared_writes": 46.66304013950484,
+        "other": 4.183486943138822
+      },
+      "peak_points": {
+        "global_reads": 25.055933746206364,
+        "global_writes": 2.6303537123969924,
+        "shared_reads": 3.135377794598901,
+        "shared_writes": 29.26007040888421,
+        "other": 2.6232643379135334
+      },
+      "estimated_global_read_share_pct": {
+        "mean": 40.97684849892721,
+        "min": 40.95841700454999,
+        "max": 41.00227411227437
+      },
+      "estimated_global_write_share_pct": {
+        "mean": 3.1764195741850574,
+        "min": 3.175641662324434,
+        "max": 3.1775010396176993
+      },
+      "estimate_minus_direct_read_share_pp": {
+        "mean": 1.0183200266232237,
+        "min": 0.9627635683775576,
+        "max": 1.0931023304457275
+      },
+      "estimate_minus_direct_read_peak_pp": {
+        "mean": 0.638580153648813,
+        "min": 0.6036527573727287,
+        "max": 0.6857030918886048
+      },
+      "direct_nonshared_closure_share_pp": {
+        "mean": 0.07199815919669941,
+        "min": -0.0049957893514226475,
+        "max": 0.14703684213323978
+      }
+    },
+    {
+      "chip": "rtxpro",
+      "kernel": "onpair_dw_k6_t256_b4",
+      "roles": [
+        "recommended"
+      ],
+      "direction_method": "direct_lgds_ratio",
+      "raw_path": "evidence/rtxpro/boost/onpair_dw_k6_t256_b4.raw.csv",
+      "raw_sha256": "aed485b62f1362a12242a440790d80b2e5c89e2716162e678c5eb375f9ca71b7",
+      "launches": [
+        {
+          "id": "0",
+          "raw": {
+            "total": 235477058.0,
+            "shared": 136847810.0,
+            "sread": 10765169.0,
+            "swrite": 113536879.0,
+            "atom": 0.0,
+            "tread": 50192635.0,
+            "twrite": 5832560.0,
+            "dread": 87085645.0,
+            "dwrite": 11533786.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 59.97
+          },
+          "tag_read_fraction": 0.8958939812703909,
+          "direct_read_fraction": 0.8830475304608074,
+          "shares_pct": {
+            "global_reads": 36.98632665845797,
+            "global_writes": 4.898538405551793,
+            "shared_reads": 4.571642389043268,
+            "shared_writes": 48.21568604785269,
+            "other": 5.327806499094277
+          },
+          "peak_points": {
+            "global_reads": 22.180700097077242,
+            "global_writes": 2.93765348180941,
+            "shared_reads": 2.7416139407092475,
+            "shared_writes": 28.91494692289726,
+            "other": 3.1950855575068378
+          },
+          "estimated_global_read_share_pct": 37.524398517168805,
+          "estimated_global_write_share_pct": 4.360466546840951,
+          "estimate_minus_direct_read_share_pp": 0.5380718587108424,
+          "estimate_minus_direct_read_peak_pp": 0.32268169366889216,
+          "direct_nonshared_closure_share_pp": 0.004168983629819259
+        },
+        {
+          "id": "1",
+          "raw": {
+            "total": 235483491.0,
+            "shared": 136856764.0,
+            "sread": 10767694.0,
+            "swrite": 113531229.0,
+            "atom": 0.0,
+            "tread": 50174562.0,
+            "twrite": 5834661.0,
+            "dread": 87053901.0,
+            "dwrite": 11532356.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 59.94
+          },
+          "tag_read_fraction": 0.8958267819569645,
+          "direct_read_fraction": 0.8830226813459405,
+          "shares_pct": {
+            "global_reads": 36.98333015112048,
+            "global_writes": 4.8993201277476945,
+            "shared_reads": 4.572589761717096,
+            "shared_writes": 48.211969560108145,
+            "other": 5.332790399306591
+          },
+          "peak_points": {
+            "global_reads": 22.167808092581613,
+            "global_writes": 2.936652484571968,
+            "shared_reads": 2.7408103031732276,
+            "shared_writes": 28.89825455432882,
+            "other": 3.1964745653443702
+          },
+          "estimated_global_read_share_pct": 37.51959981914744,
+          "estimated_global_write_share_pct": 4.363050459720735,
+          "estimate_minus_direct_read_share_pp": 0.5362696680269602,
+          "estimate_minus_direct_read_peak_pp": 0.32144003901535995,
+          "direct_nonshared_closure_share_pp": 0.017185918141497232
+        },
+        {
+          "id": "2",
+          "raw": {
+            "total": 235446256.0,
+            "shared": 136851731.0,
+            "sread": 10766880.0,
+            "swrite": 113526762.0,
+            "atom": 0.0,
+            "tread": 50181202.0,
+            "twrite": 5832413.0,
+            "dread": 87110060.0,
+            "dwrite": 11476017.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 59.95
+          },
+          "tag_read_fraction": 0.8958750832275332,
+          "direct_read_fraction": 0.8835939379147828,
+          "shares_pct": {
+            "global_reads": 37.00102353786739,
+            "global_writes": 4.874573328705852,
+            "shared_reads": 4.572967174300703,
+            "shared_writes": 48.21769686581892,
+            "other": 5.333739093307137
+          },
+          "peak_points": {
+            "global_reads": 22.1821136109515,
+            "global_writes": 2.922306710559158,
+            "shared_reads": 2.7414938209932718,
+            "shared_writes": 28.906509271058443,
+            "other": 3.1975765864376284
+          },
+          "estimated_global_read_share_pct": 37.515303828043926,
+          "estimated_global_write_share_pct": 4.360293038529311,
+          "estimate_minus_direct_read_share_pp": 0.5142802901765402,
+          "estimate_minus_direct_read_peak_pp": 0.30831103396083587,
+          "direct_nonshared_closure_share_pp": 0.00358807999053508
+        },
+        {
+          "id": "3",
+          "raw": {
+            "total": 235428994.0,
+            "shared": 136851701.0,
+            "sread": 10766359.0,
+            "swrite": 113530105.0,
+            "atom": 0.0,
+            "tread": 50170868.0,
+            "twrite": 5832210.0,
+            "dread": 87087709.0,
+            "dwrite": 11512419.0,
+            "local_read": 0.0,
+            "local_write": 0.0,
+            "util": 60.12
+          },
+          "tag_read_fraction": 0.8958591168863969,
+          "direct_read_fraction": 0.8832413381856867,
+          "shares_pct": {
+            "global_reads": 36.98250530010867,
+            "global_writes": 4.888842542459945,
+            "shared_reads": 4.573081172831245,
+            "shared_writes": 48.222652219292925,
+            "other": 5.332918765307216
+          },
+          "peak_points": {
+            "global_reads": 22.23388218642533,
+            "global_writes": 2.9391721365269188,
+            "shared_reads": 2.7493364011061443,
+            "shared_writes": 28.991458514238907,
+            "other": 3.2061507617026983
+          },
+          "estimated_global_read_share_pct": 37.51082870108666,
+          "estimated_global_write_share_pct": 4.360519141481958,
+          "estimate_minus_direct_read_share_pp": 0.5283234009779871,
+          "estimate_minus_direct_read_peak_pp": 0.31762802866796586,
+          "direct_nonshared_closure_share_pp": -0.009699315114942894
+        }
+      ],
+      "shares_pct": {
+        "global_reads": 36.988296411888626,
+        "global_writes": 4.890318601116321,
+        "shared_reads": 4.572570124473078,
+        "shared_writes": 48.21700117326817,
+        "other": 5.331813689253805
+      },
+      "peak_points": {
+        "global_reads": 22.19112599675892,
+        "global_writes": 2.9339462033668635,
+        "shared_reads": 2.743313616495473,
+        "shared_writes": 28.927792315630857,
+        "other": 3.198821867747884
+      },
+      "estimated_global_read_share_pct": {
+        "mean": 37.51753271636171,
+        "min": 37.51082870108666,
+        "max": 37.524398517168805
+      },
+      "estimated_global_write_share_pct": {
+        "mean": 4.3610822966432385,
+        "min": 4.360293038529311,
+        "max": 4.363050459720735
+      },
+      "estimate_minus_direct_read_share_pp": {
+        "mean": 0.5292363044730825,
+        "min": 0.5142802901765402,
+        "max": 0.5380718587108424
+      },
+      "estimate_minus_direct_read_peak_pp": {
+        "mean": 0.31751519882826346,
+        "min": 0.30831103396083587,
+        "max": 0.32268169366889216
+      },
+      "direct_nonshared_closure_share_pp": {
+        "mean": 0.0038109166617271693,
+        "min": -0.009699315114942894,
+        "max": 0.017185918141497232
+      }
+    }
+  ],
+  "method": "Per launch: partition measured nonshared total by direct LGDS command direction where available, otherwise global tag-output direction. Preserve direct shared loads/stores and shared residual; average four per-launch shares and peak-scaled segments separately.",
+  "accepted_sha256": "1074906c186e56cd26f337516bda15110b95182f80e00ba1385e77e975314d1f"
+}

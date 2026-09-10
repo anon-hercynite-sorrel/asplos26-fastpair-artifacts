@@ -1,0 +1,64 @@
+# staged-dictionary counterfactual census
+utc: 2026-07-27T18:18:32Z
+bits: 12,16   iters: 100
+NVIDIA L40S, 46068 MiB
+
+## per-cell summaries collected
+shdict_summary_clickbench.json  173787 B
+shdict_summary_fineweb.json  174105 B
+shdict_summary_lcomment.json  173905 B
+shdict_summary_pscomment.json  173716 B
+
+## shared-dict variant verdicts (rate, or the shared-byte reason it could not run)
+  shdict_summary_clickbench.json:
+    bits=None onpair_shmem_4tpt_split8read_b128o12: rate=None
+    bits=None onpair_shmem_4tpt_split8read_occ: rate=None
+    bits=None onpair_shmem_4tpt_pdict: rate=None
+    bits=None onpair_shmem_4tpt_vdict: rate=None
+    bits=None onpair_shmem_4tpt_split8read: rate=None
+    bits=None onpair_shmem_4tpt_shdict8: rate=None
+    bits=None onpair_shmem_4tpt_split8read_b128o12: rate=None
+    bits=None onpair_shmem_4tpt_split8read_occ: rate=None
+    bits=None onpair_shmem_4tpt_pdict: rate=None
+    bits=None onpair_shmem_4tpt_vdict: rate=None
+    bits=None onpair_shmem_4tpt_split8read: rate=None
+    bits=None onpair_shmem_4tpt_shdict8: rate=None
+  shdict_summary_fineweb.json:
+    bits=None onpair_shmem_4tpt_split8read_b128o12: rate=None
+    bits=None onpair_shmem_4tpt_split8read_occ: rate=None
+    bits=None onpair_shmem_4tpt_pdict: rate=None
+    bits=None onpair_shmem_4tpt_vdict: rate=None
+    bits=None onpair_shmem_4tpt_split8read: rate=None
+    bits=None onpair_shmem_4tpt_shdict8: rate=None
+    bits=None onpair_shmem_4tpt_split8read_b128o12: rate=None
+    bits=None onpair_shmem_4tpt_split8read_occ: rate=None
+    bits=None onpair_shmem_4tpt_pdict: rate=None
+    bits=None onpair_shmem_4tpt_vdict: rate=None
+    bits=None onpair_shmem_4tpt_split8read: rate=None
+    bits=None onpair_shmem_4tpt_shdict8: rate=None
+  shdict_summary_lcomment.json:
+    bits=None onpair_shmem_4tpt_split8read_b128o12: rate=None
+    bits=None onpair_shmem_4tpt_split8read_occ: rate=None
+    bits=None onpair_shmem_4tpt_pdict: rate=None
+    bits=None onpair_shmem_4tpt_vdict: rate=None
+    bits=None onpair_shmem_4tpt_split8read: rate=None
+    bits=None onpair_shmem_4tpt_shdict8: rate=None
+    bits=None onpair_shmem_4tpt_split8read_b128o12: rate=None
+    bits=None onpair_shmem_4tpt_split8read_occ: rate=None
+    bits=None onpair_shmem_4tpt_pdict: rate=None
+    bits=None onpair_shmem_4tpt_vdict: rate=None
+    bits=None onpair_shmem_4tpt_split8read: rate=None
+    bits=None onpair_shmem_4tpt_shdict8: rate=None
+  shdict_summary_pscomment.json:
+    bits=None onpair_shmem_4tpt_split8read_b128o12: rate=None
+    bits=None onpair_shmem_4tpt_split8read_occ: rate=None
+    bits=None onpair_shmem_4tpt_pdict: rate=None
+    bits=None onpair_shmem_4tpt_vdict: rate=None
+    bits=None onpair_shmem_4tpt_split8read: rate=None
+    bits=None onpair_shmem_4tpt_shdict8: rate=None
+    bits=None onpair_shmem_4tpt_split8read_b128o12: rate=None
+    bits=None onpair_shmem_4tpt_split8read_occ: rate=None
+    bits=None onpair_shmem_4tpt_pdict: rate=None
+    bits=None onpair_shmem_4tpt_vdict: rate=None
+    bits=None onpair_shmem_4tpt_split8read: rate=None
+    bits=None onpair_shmem_4tpt_shdict8: rate=None

@@ -1,0 +1,42 @@
+# OnPair-GPU GPU-decode run environment
+date_utc:    2026-06-08T10:39:43Z
+host:        <redacted-ephemeral-host>
+vortex_rev:  fe4a84d65
+
+## GPU (name, mem, compute capability, driver)
+name, memory.total [MiB], compute_cap, driver_version
+NVIDIA H100 80GB HBM3, 81559 MiB, 9.0, 580.126.09
+
+## nvidia-smi
+Mon Jun  8 10:39:43 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.126.09             Driver Version: 580.126.09     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100 80GB HBM3          On  |   00000000:8D:00.0 Off |                    0 |
+| N/A   31C    P0             68W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+## nvcc
+_run.sh: line 44: nvcc: command not found
+nvcc not on PATH yet
+
+## CPU / memory
+nproc: 16
+CPU(s):                               16
+Model name:                           Intel(R) Xeon(R) Platinum 8468
+               total        used        free      shared  buff/cache   available
+Mem:           196Gi       2.1Gi       195Gi       1.3Mi       756Mi       194Gi
+Swap:             0B          0B          0B

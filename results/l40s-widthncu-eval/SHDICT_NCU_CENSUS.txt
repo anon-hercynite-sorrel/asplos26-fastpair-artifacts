@@ -1,0 +1,8 @@
+fineweb_text_b12_split8read WIDTH-PASS-OK
+fineweb_text_b12_split8read exit=0 rows=1473 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_split8read Static Shared Memory Per Block=33.28B
+fineweb_text_b12_onpair_shmem_4tpt WIDTH-PASS-OK
+fineweb_text_b12_onpair_shmem_4tpt exit=0 rows=1473 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt Static Shared Memory Per Block=33.28B
+wikipedia_text_b12_split8read WIDTH-PASS-OK
+wikipedia_text_b12_split8read exit=0 rows=1489 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_split8read Static Shared Memory Per Block=33.28B
+wikipedia_text_b12_onpair_shmem_4tpt WIDTH-PASS-OK
+wikipedia_text_b12_onpair_shmem_4tpt exit=0 rows=1473 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt Static Shared Memory Per Block=33.28B

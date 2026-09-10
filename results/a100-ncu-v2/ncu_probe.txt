@@ -1,0 +1,8 @@
+## /proc/driver/nvidia/params (RmProfilingAdminOnly: 1=admin-only, 0=all users)
+RmProfilingAdminOnly: 1
+## fs.protected_regular (1 can block the ncu lock file even as root)
+fs.protected_regular = 2
+## confidential computing mode?
+CC status: OFF
+## ncu binary: /usr/local/cuda/bin/ncu ; vortex sample: /home/ubuntu/work/vortex-bench/data/onpair-bench/tpch-sf10/l_comment/bits12_chunk10mb_thr0.20/part_0000.vortex
+## ncu exit=0

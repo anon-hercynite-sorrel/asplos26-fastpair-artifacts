@@ -1,0 +1,19 @@
+{
+  "name": "NVIDIA H100 80GB HBM3",
+  "compute_capability": "9.0",
+  "multiprocessors": 132,
+  "max_threads_per_sm": 2048,
+  "max_warps_per_sm": 64,
+  "max_blocks_per_sm": 32,
+  "warp_size": 32,
+  "regs_per_sm": 65536,
+  "regs_per_block": 65536,
+  "shared_per_sm_bytes": 233472,
+  "shared_per_block_bytes": 49152,
+  "shared_per_block_optin_bytes": 232448,
+  "l2_bytes": 52428800,
+  "global_bytes": 85017493504,
+  "memory_bus_width_bits": 5120,
+  "memory_clock_khz": 2619000,
+  "clock_khz": 1980000
+}

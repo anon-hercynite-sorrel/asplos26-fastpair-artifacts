@@ -1,0 +1,2730 @@
+===== probe_k1_t64_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k1_t64_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k1_t64_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 1344 bytes smem
+ptxas info    : Compile time = 11.174 ms
+===== probe_k1_t64_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k1_t64_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k1_t64_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 1344 bytes smem
+ptxas info    : Compile time = 11.698 ms
+===== probe_k1_t64_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k1_t64_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k1_t64_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 1344 bytes smem
+ptxas info    : Compile time = 11.493 ms
+===== probe_k1_t64_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k1_t64_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k1_t64_b6
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 1344 bytes smem
+ptxas info    : Compile time = 11.283 ms
+===== probe_k1_t64_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k1_t64_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k1_t64_b8
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 1344 bytes smem
+ptxas info    : Compile time = 12.803 ms
+===== probe_k1_t128_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k1_t128_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k1_t128_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 2688 bytes smem
+ptxas info    : Compile time = 12.746 ms
+===== probe_k1_t128_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k1_t128_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k1_t128_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 2688 bytes smem
+ptxas info    : Compile time = 11.301 ms
+===== probe_k1_t128_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k1_t128_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k1_t128_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 2688 bytes smem
+ptxas info    : Compile time = 12.719 ms
+===== probe_k1_t128_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k1_t128_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k1_t128_b6
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 2688 bytes smem
+ptxas info    : Compile time = 11.301 ms
+===== probe_k1_t128_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k1_t128_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k1_t128_b8
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 2688 bytes smem
+ptxas info    : Compile time = 12.773 ms
+===== probe_k1_t256_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k1_t256_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k1_t256_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5376 bytes smem
+ptxas info    : Compile time = 11.176 ms
+===== probe_k1_t256_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k1_t256_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k1_t256_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5376 bytes smem
+ptxas info    : Compile time = 12.717 ms
+===== probe_k1_t256_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k1_t256_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k1_t256_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5376 bytes smem
+ptxas info    : Compile time = 11.124 ms
+===== probe_k1_t256_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k1_t256_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k1_t256_b6
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 5376 bytes smem
+ptxas info    : Compile time = 12.191 ms
+===== probe_k1_t256_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k1_t256_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k1_t256_b8
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 5376 bytes smem
+ptxas info    : Compile time = 12.848 ms
+===== probe_k2_t64_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t64_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t64_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 2624 bytes smem
+ptxas info    : Compile time = 16.026 ms
+===== probe_k2_t64_b1_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t64_b1_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t64_b1_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 2624 bytes smem
+ptxas info    : Compile time = 15.872 ms
+===== probe_k2_t64_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t64_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t64_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 2624 bytes smem
+ptxas info    : Compile time = 13.992 ms
+===== probe_k2_t64_b2_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t64_b2_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t64_b2_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 2624 bytes smem
+ptxas info    : Compile time = 15.717 ms
+===== probe_k2_t64_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t64_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t64_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 2624 bytes smem
+ptxas info    : Compile time = 15.712 ms
+===== probe_k2_t64_b4_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t64_b4_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t64_b4_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 2624 bytes smem
+ptxas info    : Compile time = 14.419 ms
+===== probe_k2_t64_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t64_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t64_b6
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 2624 bytes smem
+ptxas info    : Compile time = 16.083 ms
+===== probe_k2_t64_b6_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t64_b6_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t64_b6_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 2624 bytes smem
+ptxas info    : Compile time = 15.954 ms
+===== probe_k2_t64_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t64_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t64_b8
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 2624 bytes smem
+ptxas info    : Compile time = 16.141 ms
+===== probe_k2_t64_b8_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t64_b8_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t64_b8_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 2624 bytes smem
+ptxas info    : Compile time = 16.035 ms
+===== probe_k2_t128_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t128_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t128_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5248 bytes smem
+ptxas info    : Compile time = 13.776 ms
+===== probe_k2_t128_b1_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t128_b1_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t128_b1_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5248 bytes smem
+ptxas info    : Compile time = 14.029 ms
+===== probe_k2_t128_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t128_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t128_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5248 bytes smem
+ptxas info    : Compile time = 14.350 ms
+===== probe_k2_t128_b2_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t128_b2_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t128_b2_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5248 bytes smem
+ptxas info    : Compile time = 16.056 ms
+===== probe_k2_t128_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t128_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t128_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5248 bytes smem
+ptxas info    : Compile time = 14.552 ms
+===== probe_k2_t128_b4_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t128_b4_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t128_b4_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5248 bytes smem
+ptxas info    : Compile time = 15.071 ms
+===== probe_k2_t128_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t128_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t128_b6
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5248 bytes smem
+ptxas info    : Compile time = 14.072 ms
+===== probe_k2_t128_b6_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t128_b6_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t128_b6_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5248 bytes smem
+ptxas info    : Compile time = 14.207 ms
+===== probe_k2_t128_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t128_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t128_b8
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5248 bytes smem
+ptxas info    : Compile time = 14.771 ms
+===== probe_k2_t128_b8_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t128_b8_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t128_b8_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5248 bytes smem
+ptxas info    : Compile time = 13.934 ms
+===== probe_k2_t256_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t256_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t256_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10496 bytes smem
+ptxas info    : Compile time = 15.893 ms
+===== probe_k2_t256_b1_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t256_b1_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t256_b1_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10496 bytes smem
+ptxas info    : Compile time = 14.246 ms
+===== probe_k2_t256_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t256_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t256_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10496 bytes smem
+ptxas info    : Compile time = 15.534 ms
+===== probe_k2_t256_b2_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t256_b2_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t256_b2_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10496 bytes smem
+ptxas info    : Compile time = 14.471 ms
+===== probe_k2_t256_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t256_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t256_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10496 bytes smem
+ptxas info    : Compile time = 15.800 ms
+===== probe_k2_t256_b4_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t256_b4_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t256_b4_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10496 bytes smem
+ptxas info    : Compile time = 16.062 ms
+===== probe_k2_t256_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t256_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t256_b6
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 10496 bytes smem
+ptxas info    : Compile time = 16.141 ms
+===== probe_k2_t256_b6_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t256_b6_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t256_b6_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 10496 bytes smem
+ptxas info    : Compile time = 15.164 ms
+===== probe_k2_t256_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t256_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t256_b8
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 10496 bytes smem
+ptxas info    : Compile time = 16.168 ms
+===== probe_k2_t256_b8_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k2_t256_b8_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k2_t256_b8_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 10496 bytes smem
+ptxas info    : Compile time = 14.142 ms
+===== probe_k3_t64_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t64_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t64_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 3904 bytes smem
+ptxas info    : Compile time = 17.090 ms
+===== probe_k3_t64_b1_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t64_b1_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t64_b1_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 3904 bytes smem
+ptxas info    : Compile time = 16.989 ms
+===== probe_k3_t64_b1_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t64_b1_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t64_b1_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 3904 bytes smem
+ptxas info    : Compile time = 19.719 ms
+===== probe_k3_t64_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t64_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t64_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 3904 bytes smem
+ptxas info    : Compile time = 17.007 ms
+===== probe_k3_t64_b2_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t64_b2_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t64_b2_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 3904 bytes smem
+ptxas info    : Compile time = 17.321 ms
+===== probe_k3_t64_b2_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t64_b2_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t64_b2_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 3904 bytes smem
+ptxas info    : Compile time = 17.648 ms
+===== probe_k3_t64_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t64_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t64_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 3904 bytes smem
+ptxas info    : Compile time = 17.519 ms
+===== probe_k3_t64_b4_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t64_b4_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t64_b4_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 3904 bytes smem
+ptxas info    : Compile time = 17.317 ms
+===== probe_k3_t64_b4_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t64_b4_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t64_b4_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 3904 bytes smem
+ptxas info    : Compile time = 17.531 ms
+===== probe_k3_t64_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t64_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t64_b6
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 3904 bytes smem
+ptxas info    : Compile time = 18.136 ms
+===== probe_k3_t64_b6_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t64_b6_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t64_b6_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 3904 bytes smem
+ptxas info    : Compile time = 19.506 ms
+===== probe_k3_t64_b6_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t64_b6_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t64_b6_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 3904 bytes smem
+ptxas info    : Compile time = 19.642 ms
+===== probe_k3_t64_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t64_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t64_b8
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 3904 bytes smem
+ptxas info    : Compile time = 18.799 ms
+===== probe_k3_t64_b8_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t64_b8_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t64_b8_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 3904 bytes smem
+ptxas info    : Compile time = 19.343 ms
+===== probe_k3_t64_b8_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t64_b8_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t64_b8_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 3904 bytes smem
+ptxas info    : Compile time = 19.451 ms
+===== probe_k3_t128_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t128_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t128_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7808 bytes smem
+ptxas info    : Compile time = 19.045 ms
+===== probe_k3_t128_b1_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t128_b1_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t128_b1_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7808 bytes smem
+ptxas info    : Compile time = 19.476 ms
+===== probe_k3_t128_b1_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t128_b1_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t128_b1_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7808 bytes smem
+ptxas info    : Compile time = 19.397 ms
+===== probe_k3_t128_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t128_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t128_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7808 bytes smem
+ptxas info    : Compile time = 16.650 ms
+===== probe_k3_t128_b2_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t128_b2_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t128_b2_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7808 bytes smem
+ptxas info    : Compile time = 17.164 ms
+===== probe_k3_t128_b2_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t128_b2_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t128_b2_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7808 bytes smem
+ptxas info    : Compile time = 17.161 ms
+===== probe_k3_t128_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t128_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t128_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7808 bytes smem
+ptxas info    : Compile time = 19.307 ms
+===== probe_k3_t128_b4_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t128_b4_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t128_b4_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7808 bytes smem
+ptxas info    : Compile time = 16.896 ms
+===== probe_k3_t128_b4_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t128_b4_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t128_b4_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7808 bytes smem
+ptxas info    : Compile time = 20.021 ms
+===== probe_k3_t128_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t128_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t128_b6
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7808 bytes smem
+ptxas info    : Compile time = 19.243 ms
+===== probe_k3_t128_b6_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t128_b6_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t128_b6_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7808 bytes smem
+ptxas info    : Compile time = 19.393 ms
+===== probe_k3_t128_b6_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t128_b6_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t128_b6_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7808 bytes smem
+ptxas info    : Compile time = 17.108 ms
+===== probe_k3_t128_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t128_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t128_b8
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7808 bytes smem
+ptxas info    : Compile time = 16.644 ms
+===== probe_k3_t128_b8_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t128_b8_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t128_b8_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7808 bytes smem
+ptxas info    : Compile time = 19.438 ms
+===== probe_k3_t128_b8_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t128_b8_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t128_b8_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7808 bytes smem
+ptxas info    : Compile time = 19.502 ms
+===== probe_k3_t256_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t256_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t256_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15616 bytes smem
+ptxas info    : Compile time = 19.205 ms
+===== probe_k3_t256_b1_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t256_b1_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t256_b1_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15616 bytes smem
+ptxas info    : Compile time = 17.214 ms
+===== probe_k3_t256_b1_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t256_b1_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t256_b1_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15616 bytes smem
+ptxas info    : Compile time = 17.360 ms
+===== probe_k3_t256_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t256_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t256_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15616 bytes smem
+ptxas info    : Compile time = 17.029 ms
+===== probe_k3_t256_b2_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t256_b2_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t256_b2_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15616 bytes smem
+ptxas info    : Compile time = 17.562 ms
+===== probe_k3_t256_b2_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t256_b2_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t256_b2_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15616 bytes smem
+ptxas info    : Compile time = 17.145 ms
+===== probe_k3_t256_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t256_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t256_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15616 bytes smem
+ptxas info    : Compile time = 19.057 ms
+===== probe_k3_t256_b4_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t256_b4_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t256_b4_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15616 bytes smem
+ptxas info    : Compile time = 17.114 ms
+===== probe_k3_t256_b4_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t256_b4_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t256_b4_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15616 bytes smem
+ptxas info    : Compile time = 17.397 ms
+===== probe_k3_t256_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t256_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t256_b6
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 15616 bytes smem
+ptxas info    : Compile time = 17.274 ms
+===== probe_k3_t256_b6_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t256_b6_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t256_b6_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 15616 bytes smem
+ptxas info    : Compile time = 19.974 ms
+===== probe_k3_t256_b6_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t256_b6_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t256_b6_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 15616 bytes smem
+ptxas info    : Compile time = 17.624 ms
+===== probe_k3_t256_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t256_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t256_b8
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 15616 bytes smem
+ptxas info    : Compile time = 19.839 ms
+===== probe_k3_t256_b8_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t256_b8_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t256_b8_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 15616 bytes smem
+ptxas info    : Compile time = 20.401 ms
+===== probe_k3_t256_b8_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k3_t256_b8_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k3_t256_b8_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 15616 bytes smem
+ptxas info    : Compile time = 20.751 ms
+===== probe_k4_t64_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t64_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t64_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5184 bytes smem
+ptxas info    : Compile time = 22.223 ms
+===== probe_k4_t64_b1_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t64_b1_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t64_b1_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5184 bytes smem
+ptxas info    : Compile time = 22.423 ms
+===== probe_k4_t64_b1_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t64_b1_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t64_b1_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5184 bytes smem
+ptxas info    : Compile time = 22.172 ms
+===== probe_k4_t64_b1_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t64_b1_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t64_b1_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5184 bytes smem
+ptxas info    : Compile time = 22.125 ms
+===== probe_k4_t64_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t64_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t64_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5184 bytes smem
+ptxas info    : Compile time = 22.423 ms
+===== probe_k4_t64_b2_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t64_b2_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t64_b2_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5184 bytes smem
+ptxas info    : Compile time = 19.743 ms
+===== probe_k4_t64_b2_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t64_b2_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t64_b2_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5184 bytes smem
+ptxas info    : Compile time = 20.765 ms
+===== probe_k4_t64_b2_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t64_b2_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t64_b2_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5184 bytes smem
+ptxas info    : Compile time = 23.079 ms
+===== probe_k4_t64_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t64_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t64_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5184 bytes smem
+ptxas info    : Compile time = 22.303 ms
+===== probe_k4_t64_b4_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t64_b4_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t64_b4_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5184 bytes smem
+ptxas info    : Compile time = 22.300 ms
+===== probe_k4_t64_b4_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t64_b4_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t64_b4_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5184 bytes smem
+ptxas info    : Compile time = 22.696 ms
+===== probe_k4_t64_b4_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t64_b4_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t64_b4_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5184 bytes smem
+ptxas info    : Compile time = 20.339 ms
+===== probe_k4_t64_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t64_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t64_b6
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5184 bytes smem
+ptxas info    : Compile time = 22.215 ms
+===== probe_k4_t64_b6_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t64_b6_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t64_b6_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5184 bytes smem
+ptxas info    : Compile time = 19.621 ms
+===== probe_k4_t64_b6_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t64_b6_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t64_b6_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5184 bytes smem
+ptxas info    : Compile time = 20.772 ms
+===== probe_k4_t64_b6_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t64_b6_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t64_b6_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5184 bytes smem
+ptxas info    : Compile time = 19.596 ms
+===== probe_k4_t64_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t64_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t64_b8
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5184 bytes smem
+ptxas info    : Compile time = 19.004 ms
+===== probe_k4_t64_b8_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t64_b8_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t64_b8_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5184 bytes smem
+ptxas info    : Compile time = 22.377 ms
+===== probe_k4_t64_b8_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t64_b8_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t64_b8_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5184 bytes smem
+ptxas info    : Compile time = 19.921 ms
+===== probe_k4_t64_b8_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t64_b8_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t64_b8_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 5184 bytes smem
+ptxas info    : Compile time = 19.472 ms
+===== probe_k4_t128_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t128_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t128_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10368 bytes smem
+ptxas info    : Compile time = 22.215 ms
+===== probe_k4_t128_b1_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t128_b1_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t128_b1_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10368 bytes smem
+ptxas info    : Compile time = 19.840 ms
+===== probe_k4_t128_b1_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t128_b1_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t128_b1_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10368 bytes smem
+ptxas info    : Compile time = 22.758 ms
+===== probe_k4_t128_b1_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t128_b1_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t128_b1_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10368 bytes smem
+ptxas info    : Compile time = 22.902 ms
+===== probe_k4_t128_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t128_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t128_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10368 bytes smem
+ptxas info    : Compile time = 20.379 ms
+===== probe_k4_t128_b2_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t128_b2_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t128_b2_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10368 bytes smem
+ptxas info    : Compile time = 22.503 ms
+===== probe_k4_t128_b2_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t128_b2_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t128_b2_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10368 bytes smem
+ptxas info    : Compile time = 20.427 ms
+===== probe_k4_t128_b2_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t128_b2_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t128_b2_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10368 bytes smem
+ptxas info    : Compile time = 19.748 ms
+===== probe_k4_t128_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t128_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t128_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10368 bytes smem
+ptxas info    : Compile time = 20.937 ms
+===== probe_k4_t128_b4_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t128_b4_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t128_b4_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10368 bytes smem
+ptxas info    : Compile time = 20.459 ms
+===== probe_k4_t128_b4_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t128_b4_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t128_b4_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10368 bytes smem
+ptxas info    : Compile time = 21.159 ms
+===== probe_k4_t128_b4_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t128_b4_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t128_b4_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10368 bytes smem
+ptxas info    : Compile time = 22.642 ms
+===== probe_k4_t128_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t128_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t128_b6
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10368 bytes smem
+ptxas info    : Compile time = 19.364 ms
+===== probe_k4_t128_b6_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t128_b6_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t128_b6_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10368 bytes smem
+ptxas info    : Compile time = 20.540 ms
+===== probe_k4_t128_b6_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t128_b6_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t128_b6_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10368 bytes smem
+ptxas info    : Compile time = 22.994 ms
+===== probe_k4_t128_b6_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t128_b6_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t128_b6_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10368 bytes smem
+ptxas info    : Compile time = 22.870 ms
+===== probe_k4_t128_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t128_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t128_b8
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10368 bytes smem
+ptxas info    : Compile time = 19.521 ms
+===== probe_k4_t128_b8_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t128_b8_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t128_b8_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10368 bytes smem
+ptxas info    : Compile time = 22.613 ms
+===== probe_k4_t128_b8_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t128_b8_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t128_b8_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10368 bytes smem
+ptxas info    : Compile time = 20.195 ms
+===== probe_k4_t128_b8_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t128_b8_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t128_b8_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10368 bytes smem
+ptxas info    : Compile time = 20.248 ms
+===== probe_k4_t256_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t256_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t256_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20736 bytes smem
+ptxas info    : Compile time = 21.897 ms
+===== probe_k4_t256_b1_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t256_b1_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t256_b1_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20736 bytes smem
+ptxas info    : Compile time = 20.205 ms
+===== probe_k4_t256_b1_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t256_b1_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t256_b1_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20736 bytes smem
+ptxas info    : Compile time = 20.282 ms
+===== probe_k4_t256_b1_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t256_b1_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t256_b1_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20736 bytes smem
+ptxas info    : Compile time = 20.216 ms
+===== probe_k4_t256_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t256_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t256_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20736 bytes smem
+ptxas info    : Compile time = 21.889 ms
+===== probe_k4_t256_b2_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t256_b2_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t256_b2_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20736 bytes smem
+ptxas info    : Compile time = 20.586 ms
+===== probe_k4_t256_b2_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t256_b2_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t256_b2_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20736 bytes smem
+ptxas info    : Compile time = 20.021 ms
+===== probe_k4_t256_b2_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t256_b2_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t256_b2_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20736 bytes smem
+ptxas info    : Compile time = 22.141 ms
+===== probe_k4_t256_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t256_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t256_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20736 bytes smem
+ptxas info    : Compile time = 22.231 ms
+===== probe_k4_t256_b4_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t256_b4_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t256_b4_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20736 bytes smem
+ptxas info    : Compile time = 22.901 ms
+===== probe_k4_t256_b4_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t256_b4_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t256_b4_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20736 bytes smem
+ptxas info    : Compile time = 22.691 ms
+===== probe_k4_t256_b4_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t256_b4_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t256_b4_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20736 bytes smem
+ptxas info    : Compile time = 22.752 ms
+===== probe_k4_t256_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t256_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t256_b6
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 20736 bytes smem
+ptxas info    : Compile time = 22.261 ms
+===== probe_k4_t256_b6_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t256_b6_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t256_b6_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 20736 bytes smem
+ptxas info    : Compile time = 21.076 ms
+===== probe_k4_t256_b6_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t256_b6_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t256_b6_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 20736 bytes smem
+ptxas info    : Compile time = 21.573 ms
+===== probe_k4_t256_b6_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t256_b6_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t256_b6_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 20736 bytes smem
+ptxas info    : Compile time = 21.695 ms
+===== probe_k4_t256_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t256_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t256_b8
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 20736 bytes smem
+ptxas info    : Compile time = 22.837 ms
+===== probe_k4_t256_b8_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t256_b8_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t256_b8_h2
+    16 bytes stack frame, 12 bytes spill stores, 16 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 16 bytes cumulative stack size, 20736 bytes smem
+ptxas info    : Compile time = 20.901 ms
+===== probe_k4_t256_b8_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t256_b8_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t256_b8_h3
+    32 bytes stack frame, 28 bytes spill stores, 32 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 32 bytes cumulative stack size, 20736 bytes smem
+ptxas info    : Compile time = 23.038 ms
+===== probe_k4_t256_b8_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k4_t256_b8_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k4_t256_b8_h4
+    32 bytes stack frame, 28 bytes spill stores, 32 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 32 bytes cumulative stack size, 20736 bytes smem
+ptxas info    : Compile time = 21.930 ms
+===== probe_k5_t64_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t64_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t64_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 6464 bytes smem
+ptxas info    : Compile time = 26.018 ms
+===== probe_k5_t64_b1_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t64_b1_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t64_b1_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 6464 bytes smem
+ptxas info    : Compile time = 25.107 ms
+===== probe_k5_t64_b1_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t64_b1_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t64_b1_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 6464 bytes smem
+ptxas info    : Compile time = 23.407 ms
+===== probe_k5_t64_b1_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t64_b1_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t64_b1_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 6464 bytes smem
+ptxas info    : Compile time = 24.163 ms
+===== probe_k5_t64_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t64_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t64_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 6464 bytes smem
+ptxas info    : Compile time = 26.400 ms
+===== probe_k5_t64_b2_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t64_b2_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t64_b2_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 6464 bytes smem
+ptxas info    : Compile time = 23.767 ms
+===== probe_k5_t64_b2_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t64_b2_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t64_b2_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 6464 bytes smem
+ptxas info    : Compile time = 23.436 ms
+===== probe_k5_t64_b2_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t64_b2_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t64_b2_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 6464 bytes smem
+ptxas info    : Compile time = 26.630 ms
+===== probe_k5_t64_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t64_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t64_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 6464 bytes smem
+ptxas info    : Compile time = 23.147 ms
+===== probe_k5_t64_b4_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t64_b4_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t64_b4_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 6464 bytes smem
+ptxas info    : Compile time = 23.611 ms
+===== probe_k5_t64_b4_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t64_b4_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t64_b4_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 6464 bytes smem
+ptxas info    : Compile time = 25.718 ms
+===== probe_k5_t64_b4_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t64_b4_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t64_b4_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 6464 bytes smem
+ptxas info    : Compile time = 24.308 ms
+===== probe_k5_t64_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t64_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t64_b6
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 6464 bytes smem
+ptxas info    : Compile time = 22.397 ms
+===== probe_k5_t64_b6_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t64_b6_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t64_b6_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 6464 bytes smem
+ptxas info    : Compile time = 26.471 ms
+===== probe_k5_t64_b6_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t64_b6_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t64_b6_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 6464 bytes smem
+ptxas info    : Compile time = 24.343 ms
+===== probe_k5_t64_b6_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t64_b6_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t64_b6_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 6464 bytes smem
+ptxas info    : Compile time = 26.933 ms
+===== probe_k5_t64_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t64_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t64_b8
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 6464 bytes smem
+ptxas info    : Compile time = 25.723 ms
+===== probe_k5_t64_b8_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t64_b8_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t64_b8_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 6464 bytes smem
+ptxas info    : Compile time = 23.375 ms
+===== probe_k5_t64_b8_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t64_b8_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t64_b8_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 6464 bytes smem
+ptxas info    : Compile time = 23.399 ms
+===== probe_k5_t64_b8_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t64_b8_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t64_b8_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 6464 bytes smem
+ptxas info    : Compile time = 24.440 ms
+===== probe_k5_t128_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t128_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t128_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 12928 bytes smem
+ptxas info    : Compile time = 23.018 ms
+===== probe_k5_t128_b1_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t128_b1_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t128_b1_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 12928 bytes smem
+ptxas info    : Compile time = 26.509 ms
+===== probe_k5_t128_b1_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t128_b1_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t128_b1_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 12928 bytes smem
+ptxas info    : Compile time = 26.769 ms
+===== probe_k5_t128_b1_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t128_b1_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t128_b1_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 12928 bytes smem
+ptxas info    : Compile time = 23.489 ms
+===== probe_k5_t128_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t128_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t128_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 12928 bytes smem
+ptxas info    : Compile time = 26.223 ms
+===== probe_k5_t128_b2_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t128_b2_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t128_b2_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 12928 bytes smem
+ptxas info    : Compile time = 25.844 ms
+===== probe_k5_t128_b2_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t128_b2_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t128_b2_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 12928 bytes smem
+ptxas info    : Compile time = 23.724 ms
+===== probe_k5_t128_b2_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t128_b2_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t128_b2_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 12928 bytes smem
+ptxas info    : Compile time = 26.939 ms
+===== probe_k5_t128_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t128_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t128_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 12928 bytes smem
+ptxas info    : Compile time = 23.275 ms
+===== probe_k5_t128_b4_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t128_b4_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t128_b4_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 12928 bytes smem
+ptxas info    : Compile time = 25.903 ms
+===== probe_k5_t128_b4_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t128_b4_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t128_b4_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 12928 bytes smem
+ptxas info    : Compile time = 26.714 ms
+===== probe_k5_t128_b4_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t128_b4_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t128_b4_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 12928 bytes smem
+ptxas info    : Compile time = 26.842 ms
+===== probe_k5_t128_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t128_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t128_b6
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 12928 bytes smem
+ptxas info    : Compile time = 23.766 ms
+===== probe_k5_t128_b6_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t128_b6_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t128_b6_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 12928 bytes smem
+ptxas info    : Compile time = 23.838 ms
+===== probe_k5_t128_b6_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t128_b6_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t128_b6_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 12928 bytes smem
+ptxas info    : Compile time = 23.604 ms
+===== probe_k5_t128_b6_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t128_b6_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t128_b6_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 12928 bytes smem
+ptxas info    : Compile time = 23.357 ms
+===== probe_k5_t128_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t128_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t128_b8
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 12928 bytes smem
+ptxas info    : Compile time = 26.233 ms
+===== probe_k5_t128_b8_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t128_b8_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t128_b8_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 12928 bytes smem
+ptxas info    : Compile time = 25.335 ms
+===== probe_k5_t128_b8_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t128_b8_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t128_b8_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 12928 bytes smem
+ptxas info    : Compile time = 26.460 ms
+===== probe_k5_t128_b8_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t128_b8_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t128_b8_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 12928 bytes smem
+ptxas info    : Compile time = 26.692 ms
+===== probe_k5_t256_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t256_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t256_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 25856 bytes smem
+ptxas info    : Compile time = 25.665 ms
+===== probe_k5_t256_b1_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t256_b1_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t256_b1_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 25856 bytes smem
+ptxas info    : Compile time = 26.167 ms
+===== probe_k5_t256_b1_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t256_b1_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t256_b1_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 25856 bytes smem
+ptxas info    : Compile time = 24.479 ms
+===== probe_k5_t256_b1_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t256_b1_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t256_b1_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 25856 bytes smem
+ptxas info    : Compile time = 24.708 ms
+===== probe_k5_t256_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t256_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t256_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 25856 bytes smem
+ptxas info    : Compile time = 22.519 ms
+===== probe_k5_t256_b2_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t256_b2_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t256_b2_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 25856 bytes smem
+ptxas info    : Compile time = 23.616 ms
+===== probe_k5_t256_b2_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t256_b2_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t256_b2_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 25856 bytes smem
+ptxas info    : Compile time = 23.499 ms
+===== probe_k5_t256_b2_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t256_b2_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t256_b2_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 25856 bytes smem
+ptxas info    : Compile time = 23.746 ms
+===== probe_k5_t256_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t256_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t256_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 25856 bytes smem
+ptxas info    : Compile time = 24.999 ms
+===== probe_k5_t256_b4_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t256_b4_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t256_b4_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 25856 bytes smem
+ptxas info    : Compile time = 23.792 ms
+===== probe_k5_t256_b4_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t256_b4_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t256_b4_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 25856 bytes smem
+ptxas info    : Compile time = 26.785 ms
+===== probe_k5_t256_b4_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t256_b4_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t256_b4_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 25856 bytes smem
+ptxas info    : Compile time = 23.729 ms
+===== probe_k5_t256_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t256_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t256_b6
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 25856 bytes smem
+ptxas info    : Compile time = 26.869 ms
+===== probe_k5_t256_b6_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t256_b6_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t256_b6_h2
+    8 bytes stack frame, 8 bytes spill stores, 8 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 8 bytes cumulative stack size, 25856 bytes smem
+ptxas info    : Compile time = 27.725 ms
+===== probe_k5_t256_b6_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t256_b6_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t256_b6_h3
+    16 bytes stack frame, 16 bytes spill stores, 20 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 16 bytes cumulative stack size, 25856 bytes smem
+ptxas info    : Compile time = 25.625 ms
+===== probe_k5_t256_b6_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t256_b6_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t256_b6_h4
+    16 bytes stack frame, 12 bytes spill stores, 12 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 16 bytes cumulative stack size, 25856 bytes smem
+ptxas info    : Compile time = 25.873 ms
+===== probe_k5_t256_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t256_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t256_b8
+    8 bytes stack frame, 4 bytes spill stores, 4 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 8 bytes cumulative stack size, 25856 bytes smem
+ptxas info    : Compile time = 23.715 ms
+===== probe_k5_t256_b8_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t256_b8_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t256_b8_h2
+    8 bytes stack frame, 4 bytes spill stores, 4 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 8 bytes cumulative stack size, 25856 bytes smem
+ptxas info    : Compile time = 27.418 ms
+===== probe_k5_t256_b8_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t256_b8_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t256_b8_h3
+    24 bytes stack frame, 24 bytes spill stores, 32 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 24 bytes cumulative stack size, 25856 bytes smem
+ptxas info    : Compile time = 27.239 ms
+===== probe_k5_t256_b8_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k5_t256_b8_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k5_t256_b8_h4
+    48 bytes stack frame, 44 bytes spill stores, 44 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 48 bytes cumulative stack size, 25856 bytes smem
+ptxas info    : Compile time = 25.673 ms
+===== probe_k6_t64_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t64_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t64_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7744 bytes smem
+ptxas info    : Compile time = 29.337 ms
+===== probe_k6_t64_b1_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t64_b1_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t64_b1_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7744 bytes smem
+ptxas info    : Compile time = 29.672 ms
+===== probe_k6_t64_b1_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t64_b1_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t64_b1_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7744 bytes smem
+ptxas info    : Compile time = 26.339 ms
+===== probe_k6_t64_b1_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t64_b1_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t64_b1_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7744 bytes smem
+ptxas info    : Compile time = 27.271 ms
+===== probe_k6_t64_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t64_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t64_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7744 bytes smem
+ptxas info    : Compile time = 29.591 ms
+===== probe_k6_t64_b2_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t64_b2_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t64_b2_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7744 bytes smem
+ptxas info    : Compile time = 26.271 ms
+===== probe_k6_t64_b2_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t64_b2_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t64_b2_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7744 bytes smem
+ptxas info    : Compile time = 27.402 ms
+===== probe_k6_t64_b2_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t64_b2_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t64_b2_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7744 bytes smem
+ptxas info    : Compile time = 26.635 ms
+===== probe_k6_t64_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t64_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t64_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7744 bytes smem
+ptxas info    : Compile time = 26.125 ms
+===== probe_k6_t64_b4_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t64_b4_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t64_b4_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7744 bytes smem
+ptxas info    : Compile time = 25.720 ms
+===== probe_k6_t64_b4_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t64_b4_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t64_b4_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7744 bytes smem
+ptxas info    : Compile time = 26.835 ms
+===== probe_k6_t64_b4_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t64_b4_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t64_b4_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7744 bytes smem
+ptxas info    : Compile time = 26.878 ms
+===== probe_k6_t64_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t64_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t64_b6
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7744 bytes smem
+ptxas info    : Compile time = 26.332 ms
+===== probe_k6_t64_b6_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t64_b6_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t64_b6_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7744 bytes smem
+ptxas info    : Compile time = 28.456 ms
+===== probe_k6_t64_b6_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t64_b6_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t64_b6_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7744 bytes smem
+ptxas info    : Compile time = 28.537 ms
+===== probe_k6_t64_b6_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t64_b6_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t64_b6_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7744 bytes smem
+ptxas info    : Compile time = 30.423 ms
+===== probe_k6_t64_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t64_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t64_b8
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7744 bytes smem
+ptxas info    : Compile time = 25.958 ms
+===== probe_k6_t64_b8_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t64_b8_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t64_b8_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7744 bytes smem
+ptxas info    : Compile time = 26.293 ms
+===== probe_k6_t64_b8_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t64_b8_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t64_b8_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7744 bytes smem
+ptxas info    : Compile time = 26.770 ms
+===== probe_k6_t64_b8_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t64_b8_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t64_b8_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 7744 bytes smem
+ptxas info    : Compile time = 27.190 ms
+===== probe_k6_t128_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t128_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t128_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15488 bytes smem
+ptxas info    : Compile time = 29.335 ms
+===== probe_k6_t128_b1_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t128_b1_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t128_b1_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15488 bytes smem
+ptxas info    : Compile time = 29.180 ms
+===== probe_k6_t128_b1_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t128_b1_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t128_b1_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15488 bytes smem
+ptxas info    : Compile time = 29.657 ms
+===== probe_k6_t128_b1_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t128_b1_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t128_b1_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15488 bytes smem
+ptxas info    : Compile time = 30.665 ms
+===== probe_k6_t128_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t128_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t128_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15488 bytes smem
+ptxas info    : Compile time = 28.711 ms
+===== probe_k6_t128_b2_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t128_b2_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t128_b2_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15488 bytes smem
+ptxas info    : Compile time = 30.490 ms
+===== probe_k6_t128_b2_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t128_b2_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t128_b2_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15488 bytes smem
+ptxas info    : Compile time = 25.977 ms
+===== probe_k6_t128_b2_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t128_b2_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t128_b2_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15488 bytes smem
+ptxas info    : Compile time = 30.323 ms
+===== probe_k6_t128_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t128_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t128_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15488 bytes smem
+ptxas info    : Compile time = 26.691 ms
+===== probe_k6_t128_b4_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t128_b4_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t128_b4_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15488 bytes smem
+ptxas info    : Compile time = 29.450 ms
+===== probe_k6_t128_b4_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t128_b4_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t128_b4_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15488 bytes smem
+ptxas info    : Compile time = 29.884 ms
+===== probe_k6_t128_b4_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t128_b4_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t128_b4_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15488 bytes smem
+ptxas info    : Compile time = 30.340 ms
+===== probe_k6_t128_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t128_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t128_b6
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15488 bytes smem
+ptxas info    : Compile time = 25.673 ms
+===== probe_k6_t128_b6_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t128_b6_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t128_b6_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15488 bytes smem
+ptxas info    : Compile time = 26.548 ms
+===== probe_k6_t128_b6_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t128_b6_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t128_b6_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15488 bytes smem
+ptxas info    : Compile time = 30.172 ms
+===== probe_k6_t128_b6_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t128_b6_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t128_b6_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15488 bytes smem
+ptxas info    : Compile time = 27.488 ms
+===== probe_k6_t128_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t128_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t128_b8
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15488 bytes smem
+ptxas info    : Compile time = 28.859 ms
+===== probe_k6_t128_b8_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t128_b8_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t128_b8_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15488 bytes smem
+ptxas info    : Compile time = 27.041 ms
+===== probe_k6_t128_b8_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t128_b8_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t128_b8_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15488 bytes smem
+ptxas info    : Compile time = 30.147 ms
+===== probe_k6_t128_b8_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t128_b8_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t128_b8_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 15488 bytes smem
+ptxas info    : Compile time = 26.226 ms
+===== probe_k6_t256_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t256_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t256_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 30976 bytes smem
+ptxas info    : Compile time = 29.474 ms
+===== probe_k6_t256_b1_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t256_b1_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t256_b1_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 30976 bytes smem
+ptxas info    : Compile time = 29.788 ms
+===== probe_k6_t256_b1_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t256_b1_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t256_b1_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 30976 bytes smem
+ptxas info    : Compile time = 28.791 ms
+===== probe_k6_t256_b1_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t256_b1_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t256_b1_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 30976 bytes smem
+ptxas info    : Compile time = 29.047 ms
+===== probe_k6_t256_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t256_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t256_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 30976 bytes smem
+ptxas info    : Compile time = 25.753 ms
+===== probe_k6_t256_b2_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t256_b2_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t256_b2_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 30976 bytes smem
+ptxas info    : Compile time = 29.803 ms
+===== probe_k6_t256_b2_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t256_b2_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t256_b2_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 30976 bytes smem
+ptxas info    : Compile time = 26.320 ms
+===== probe_k6_t256_b2_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t256_b2_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t256_b2_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 30976 bytes smem
+ptxas info    : Compile time = 30.436 ms
+===== probe_k6_t256_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t256_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t256_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 30976 bytes smem
+ptxas info    : Compile time = 25.125 ms
+===== probe_k6_t256_b4_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t256_b4_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t256_b4_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 30976 bytes smem
+ptxas info    : Compile time = 26.282 ms
+===== probe_k6_t256_b4_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t256_b4_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t256_b4_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 30976 bytes smem
+ptxas info    : Compile time = 28.710 ms
+===== probe_k6_t256_b4_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t256_b4_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t256_b4_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 30976 bytes smem
+ptxas info    : Compile time = 27.184 ms
+===== probe_k6_t256_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t256_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t256_b6
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 30976 bytes smem
+ptxas info    : Compile time = 26.790 ms
+===== probe_k6_t256_b6_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t256_b6_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t256_b6_h2
+    16 bytes stack frame, 12 bytes spill stores, 24 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 16 bytes cumulative stack size, 30976 bytes smem
+ptxas info    : Compile time = 28.331 ms
+===== probe_k6_t256_b6_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t256_b6_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t256_b6_h3
+    8 bytes stack frame, 8 bytes spill stores, 12 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 8 bytes cumulative stack size, 30976 bytes smem
+ptxas info    : Compile time = 28.617 ms
+===== probe_k6_t256_b6_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t256_b6_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t256_b6_h4
+    32 bytes stack frame, 28 bytes spill stores, 28 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 32 bytes cumulative stack size, 30976 bytes smem
+ptxas info    : Compile time = 34.597 ms
+===== probe_k6_t256_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t256_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t256_b8
+    96 bytes stack frame, 148 bytes spill stores, 180 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 96 bytes cumulative stack size, 30976 bytes smem
+ptxas info    : Compile time = 32.912 ms
+===== probe_k6_t256_b8_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t256_b8_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t256_b8_h2
+    88 bytes stack frame, 132 bytes spill stores, 160 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 88 bytes cumulative stack size, 30976 bytes smem
+ptxas info    : Compile time = 27.936 ms
+===== probe_k6_t256_b8_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t256_b8_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t256_b8_h3
+    80 bytes stack frame, 96 bytes spill stores, 116 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 80 bytes cumulative stack size, 30976 bytes smem
+ptxas info    : Compile time = 28.314 ms
+===== probe_k6_t256_b8_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k6_t256_b8_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k6_t256_b8_h4
+    112 bytes stack frame, 132 bytes spill stores, 144 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 112 bytes cumulative stack size, 30976 bytes smem
+ptxas info    : Compile time = 32.760 ms
+===== probe_k7_t64_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t64_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t64_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 9024 bytes smem
+ptxas info    : Compile time = 33.633 ms
+===== probe_k7_t64_b1_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t64_b1_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t64_b1_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 9024 bytes smem
+ptxas info    : Compile time = 39.500 ms
+===== probe_k7_t64_b1_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t64_b1_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t64_b1_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 9024 bytes smem
+ptxas info    : Compile time = 34.022 ms
+===== probe_k7_t64_b1_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t64_b1_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t64_b1_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 9024 bytes smem
+ptxas info    : Compile time = 34.222 ms
+===== probe_k7_t64_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t64_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t64_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 9024 bytes smem
+ptxas info    : Compile time = 33.808 ms
+===== probe_k7_t64_b2_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t64_b2_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t64_b2_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 9024 bytes smem
+ptxas info    : Compile time = 34.623 ms
+===== probe_k7_t64_b2_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t64_b2_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t64_b2_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 9024 bytes smem
+ptxas info    : Compile time = 34.785 ms
+===== probe_k7_t64_b2_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t64_b2_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t64_b2_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 9024 bytes smem
+ptxas info    : Compile time = 30.501 ms
+===== probe_k7_t64_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t64_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t64_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 9024 bytes smem
+ptxas info    : Compile time = 29.196 ms
+===== probe_k7_t64_b4_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t64_b4_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t64_b4_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 9024 bytes smem
+ptxas info    : Compile time = 30.311 ms
+===== probe_k7_t64_b4_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t64_b4_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t64_b4_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 9024 bytes smem
+ptxas info    : Compile time = 33.616 ms
+===== probe_k7_t64_b4_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t64_b4_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t64_b4_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 9024 bytes smem
+ptxas info    : Compile time = 35.134 ms
+===== probe_k7_t64_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t64_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t64_b6
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 9024 bytes smem
+ptxas info    : Compile time = 30.597 ms
+===== probe_k7_t64_b6_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t64_b6_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t64_b6_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 9024 bytes smem
+ptxas info    : Compile time = 30.435 ms
+===== probe_k7_t64_b6_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t64_b6_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t64_b6_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 9024 bytes smem
+ptxas info    : Compile time = 30.202 ms
+===== probe_k7_t64_b6_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t64_b6_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t64_b6_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 9024 bytes smem
+ptxas info    : Compile time = 31.046 ms
+===== probe_k7_t64_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t64_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t64_b8
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 9024 bytes smem
+ptxas info    : Compile time = 30.197 ms
+===== probe_k7_t64_b8_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t64_b8_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t64_b8_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 9024 bytes smem
+ptxas info    : Compile time = 28.892 ms
+===== probe_k7_t64_b8_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t64_b8_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t64_b8_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 9024 bytes smem
+ptxas info    : Compile time = 29.832 ms
+===== probe_k7_t64_b8_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t64_b8_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t64_b8_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 9024 bytes smem
+ptxas info    : Compile time = 30.765 ms
+===== probe_k7_t128_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t128_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t128_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 18048 bytes smem
+ptxas info    : Compile time = 28.987 ms
+===== probe_k7_t128_b1_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t128_b1_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t128_b1_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 18048 bytes smem
+ptxas info    : Compile time = 34.372 ms
+===== probe_k7_t128_b1_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t128_b1_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t128_b1_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 18048 bytes smem
+ptxas info    : Compile time = 34.667 ms
+===== probe_k7_t128_b1_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t128_b1_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t128_b1_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 18048 bytes smem
+ptxas info    : Compile time = 35.042 ms
+===== probe_k7_t128_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t128_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t128_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 18048 bytes smem
+ptxas info    : Compile time = 31.089 ms
+===== probe_k7_t128_b2_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t128_b2_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t128_b2_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 18048 bytes smem
+ptxas info    : Compile time = 32.027 ms
+===== probe_k7_t128_b2_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t128_b2_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t128_b2_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 18048 bytes smem
+ptxas info    : Compile time = 34.734 ms
+===== probe_k7_t128_b2_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t128_b2_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t128_b2_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 18048 bytes smem
+ptxas info    : Compile time = 31.782 ms
+===== probe_k7_t128_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t128_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t128_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 18048 bytes smem
+ptxas info    : Compile time = 29.231 ms
+===== probe_k7_t128_b4_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t128_b4_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t128_b4_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 18048 bytes smem
+ptxas info    : Compile time = 34.341 ms
+===== probe_k7_t128_b4_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t128_b4_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t128_b4_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 18048 bytes smem
+ptxas info    : Compile time = 30.251 ms
+===== probe_k7_t128_b4_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t128_b4_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t128_b4_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 18048 bytes smem
+ptxas info    : Compile time = 29.735 ms
+===== probe_k7_t128_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t128_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t128_b6
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 18048 bytes smem
+ptxas info    : Compile time = 30.490 ms
+===== probe_k7_t128_b6_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t128_b6_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t128_b6_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 18048 bytes smem
+ptxas info    : Compile time = 33.946 ms
+===== probe_k7_t128_b6_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t128_b6_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t128_b6_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 18048 bytes smem
+ptxas info    : Compile time = 34.797 ms
+===== probe_k7_t128_b6_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t128_b6_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t128_b6_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 18048 bytes smem
+ptxas info    : Compile time = 31.161 ms
+===== probe_k7_t128_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t128_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t128_b8
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 18048 bytes smem
+ptxas info    : Compile time = 32.963 ms
+===== probe_k7_t128_b8_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t128_b8_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t128_b8_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 18048 bytes smem
+ptxas info    : Compile time = 30.174 ms
+===== probe_k7_t128_b8_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t128_b8_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t128_b8_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 18048 bytes smem
+ptxas info    : Compile time = 30.187 ms
+===== probe_k7_t128_b8_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t128_b8_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t128_b8_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 18048 bytes smem
+ptxas info    : Compile time = 30.509 ms
+===== probe_k7_t256_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t256_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t256_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 36096 bytes smem
+ptxas info    : Compile time = 31.629 ms
+===== probe_k7_t256_b1_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t256_b1_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t256_b1_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 36096 bytes smem
+ptxas info    : Compile time = 31.039 ms
+===== probe_k7_t256_b1_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t256_b1_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t256_b1_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 36096 bytes smem
+ptxas info    : Compile time = 30.602 ms
+===== probe_k7_t256_b1_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t256_b1_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t256_b1_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 36096 bytes smem
+ptxas info    : Compile time = 35.102 ms
+===== probe_k7_t256_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t256_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t256_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 36096 bytes smem
+ptxas info    : Compile time = 30.024 ms
+===== probe_k7_t256_b2_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t256_b2_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t256_b2_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 36096 bytes smem
+ptxas info    : Compile time = 33.550 ms
+===== probe_k7_t256_b2_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t256_b2_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t256_b2_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 36096 bytes smem
+ptxas info    : Compile time = 34.459 ms
+===== probe_k7_t256_b2_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t256_b2_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t256_b2_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 36096 bytes smem
+ptxas info    : Compile time = 30.914 ms
+===== probe_k7_t256_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t256_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t256_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 36096 bytes smem
+ptxas info    : Compile time = 33.688 ms
+===== probe_k7_t256_b4_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t256_b4_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t256_b4_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 36096 bytes smem
+ptxas info    : Compile time = 34.433 ms
+===== probe_k7_t256_b4_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t256_b4_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t256_b4_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 36096 bytes smem
+ptxas info    : Compile time = 32.310 ms
+===== probe_k7_t256_b4_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t256_b4_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t256_b4_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 36096 bytes smem
+ptxas info    : Compile time = 30.930 ms
+===== probe_k7_t256_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t256_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t256_b6
+    24 bytes stack frame, 36 bytes spill stores, 40 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 24 bytes cumulative stack size, 36096 bytes smem
+ptxas info    : Compile time = 37.340 ms
+===== probe_k7_t256_b6_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t256_b6_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t256_b6_h2
+    24 bytes stack frame, 28 bytes spill stores, 36 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 24 bytes cumulative stack size, 36096 bytes smem
+ptxas info    : Compile time = 33.350 ms
+===== probe_k7_t256_b6_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t256_b6_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t256_b6_h3
+    40 bytes stack frame, 36 bytes spill stores, 56 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 40 bytes cumulative stack size, 36096 bytes smem
+ptxas info    : Compile time = 34.628 ms
+===== probe_k7_t256_b6_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t256_b6_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t256_b6_h4
+    48 bytes stack frame, 48 bytes spill stores, 48 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 48 bytes cumulative stack size, 36096 bytes smem
+ptxas info    : Compile time = 35.078 ms
+===== probe_k7_t256_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t256_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t256_b8
+    88 bytes stack frame, 176 bytes spill stores, 208 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 88 bytes cumulative stack size, 36096 bytes smem
+ptxas info    : Compile time = 32.171 ms
+===== probe_k7_t256_b8_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t256_b8_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t256_b8_h2
+    112 bytes stack frame, 172 bytes spill stores, 216 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 112 bytes cumulative stack size, 36096 bytes smem
+ptxas info    : Compile time = 36.665 ms
+===== probe_k7_t256_b8_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t256_b8_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t256_b8_h3
+    128 bytes stack frame, 204 bytes spill stores, 276 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 128 bytes cumulative stack size, 36096 bytes smem
+ptxas info    : Compile time = 33.017 ms
+===== probe_k7_t256_b8_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k7_t256_b8_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k7_t256_b8_h4
+    128 bytes stack frame, 144 bytes spill stores, 168 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 128 bytes cumulative stack size, 36096 bytes smem
+ptxas info    : Compile time = 40.263 ms
+===== probe_k8_t64_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t64_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t64_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10304 bytes smem
+ptxas info    : Compile time = 32.721 ms
+===== probe_k8_t64_b1_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t64_b1_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t64_b1_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10304 bytes smem
+ptxas info    : Compile time = 37.858 ms
+===== probe_k8_t64_b1_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t64_b1_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t64_b1_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10304 bytes smem
+ptxas info    : Compile time = 37.534 ms
+===== probe_k8_t64_b1_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t64_b1_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t64_b1_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10304 bytes smem
+ptxas info    : Compile time = 33.443 ms
+===== probe_k8_t64_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t64_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t64_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10304 bytes smem
+ptxas info    : Compile time = 35.430 ms
+===== probe_k8_t64_b2_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t64_b2_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t64_b2_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10304 bytes smem
+ptxas info    : Compile time = 32.677 ms
+===== probe_k8_t64_b2_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t64_b2_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t64_b2_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10304 bytes smem
+ptxas info    : Compile time = 33.683 ms
+===== probe_k8_t64_b2_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t64_b2_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t64_b2_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10304 bytes smem
+ptxas info    : Compile time = 33.808 ms
+===== probe_k8_t64_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t64_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t64_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10304 bytes smem
+ptxas info    : Compile time = 32.762 ms
+===== probe_k8_t64_b4_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t64_b4_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t64_b4_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10304 bytes smem
+ptxas info    : Compile time = 32.017 ms
+===== probe_k8_t64_b4_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t64_b4_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t64_b4_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10304 bytes smem
+ptxas info    : Compile time = 33.377 ms
+===== probe_k8_t64_b4_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t64_b4_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t64_b4_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10304 bytes smem
+ptxas info    : Compile time = 38.691 ms
+===== probe_k8_t64_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t64_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t64_b6
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10304 bytes smem
+ptxas info    : Compile time = 32.942 ms
+===== probe_k8_t64_b6_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t64_b6_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t64_b6_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10304 bytes smem
+ptxas info    : Compile time = 37.961 ms
+===== probe_k8_t64_b6_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t64_b6_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t64_b6_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10304 bytes smem
+ptxas info    : Compile time = 38.361 ms
+===== probe_k8_t64_b6_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t64_b6_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t64_b6_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10304 bytes smem
+ptxas info    : Compile time = 38.682 ms
+===== probe_k8_t64_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t64_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t64_b8
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10304 bytes smem
+ptxas info    : Compile time = 37.226 ms
+===== probe_k8_t64_b8_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t64_b8_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t64_b8_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10304 bytes smem
+ptxas info    : Compile time = 37.943 ms
+===== probe_k8_t64_b8_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t64_b8_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t64_b8_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10304 bytes smem
+ptxas info    : Compile time = 34.381 ms
+===== probe_k8_t64_b8_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t64_b8_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t64_b8_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 10304 bytes smem
+ptxas info    : Compile time = 35.084 ms
+===== probe_k8_t128_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t128_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t128_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20608 bytes smem
+ptxas info    : Compile time = 37.437 ms
+===== probe_k8_t128_b1_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t128_b1_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t128_b1_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20608 bytes smem
+ptxas info    : Compile time = 32.131 ms
+===== probe_k8_t128_b1_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t128_b1_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t128_b1_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20608 bytes smem
+ptxas info    : Compile time = 33.140 ms
+===== probe_k8_t128_b1_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t128_b1_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t128_b1_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20608 bytes smem
+ptxas info    : Compile time = 34.093 ms
+===== probe_k8_t128_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t128_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t128_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20608 bytes smem
+ptxas info    : Compile time = 32.316 ms
+===== probe_k8_t128_b2_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t128_b2_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t128_b2_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20608 bytes smem
+ptxas info    : Compile time = 32.445 ms
+===== probe_k8_t128_b2_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t128_b2_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t128_b2_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20608 bytes smem
+ptxas info    : Compile time = 33.834 ms
+===== probe_k8_t128_b2_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t128_b2_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t128_b2_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20608 bytes smem
+ptxas info    : Compile time = 38.359 ms
+===== probe_k8_t128_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t128_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t128_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20608 bytes smem
+ptxas info    : Compile time = 32.857 ms
+===== probe_k8_t128_b4_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t128_b4_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t128_b4_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20608 bytes smem
+ptxas info    : Compile time = 33.479 ms
+===== probe_k8_t128_b4_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t128_b4_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t128_b4_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20608 bytes smem
+ptxas info    : Compile time = 34.023 ms
+===== probe_k8_t128_b4_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t128_b4_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t128_b4_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20608 bytes smem
+ptxas info    : Compile time = 34.176 ms
+===== probe_k8_t128_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t128_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t128_b6
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20608 bytes smem
+ptxas info    : Compile time = 32.818 ms
+===== probe_k8_t128_b6_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t128_b6_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t128_b6_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20608 bytes smem
+ptxas info    : Compile time = 35.657 ms
+===== probe_k8_t128_b6_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t128_b6_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t128_b6_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20608 bytes smem
+ptxas info    : Compile time = 32.880 ms
+===== probe_k8_t128_b6_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t128_b6_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t128_b6_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20608 bytes smem
+ptxas info    : Compile time = 37.494 ms
+===== probe_k8_t128_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t128_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t128_b8
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20608 bytes smem
+ptxas info    : Compile time = 37.546 ms
+===== probe_k8_t128_b8_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t128_b8_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t128_b8_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20608 bytes smem
+ptxas info    : Compile time = 31.871 ms
+===== probe_k8_t128_b8_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t128_b8_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t128_b8_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20608 bytes smem
+ptxas info    : Compile time = 34.585 ms
+===== probe_k8_t128_b8_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t128_b8_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t128_b8_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 20608 bytes smem
+ptxas info    : Compile time = 34.061 ms
+===== probe_k8_t256_b1 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t256_b1' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t256_b1
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 41216 bytes smem
+ptxas info    : Compile time = 32.383 ms
+===== probe_k8_t256_b1_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t256_b1_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t256_b1_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 41216 bytes smem
+ptxas info    : Compile time = 37.881 ms
+===== probe_k8_t256_b1_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t256_b1_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t256_b1_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 41216 bytes smem
+ptxas info    : Compile time = 33.067 ms
+===== probe_k8_t256_b1_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t256_b1_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t256_b1_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 41216 bytes smem
+ptxas info    : Compile time = 38.938 ms
+===== probe_k8_t256_b2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t256_b2' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t256_b2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 41216 bytes smem
+ptxas info    : Compile time = 34.997 ms
+===== probe_k8_t256_b2_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t256_b2_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t256_b2_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 41216 bytes smem
+ptxas info    : Compile time = 33.380 ms
+===== probe_k8_t256_b2_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t256_b2_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t256_b2_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 41216 bytes smem
+ptxas info    : Compile time = 33.787 ms
+===== probe_k8_t256_b2_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t256_b2_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t256_b2_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 41216 bytes smem
+ptxas info    : Compile time = 34.053 ms
+===== probe_k8_t256_b4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t256_b4' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t256_b4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 41216 bytes smem
+ptxas info    : Compile time = 31.460 ms
+===== probe_k8_t256_b4_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t256_b4_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t256_b4_h2
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 41216 bytes smem
+ptxas info    : Compile time = 37.906 ms
+===== probe_k8_t256_b4_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t256_b4_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t256_b4_h3
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 41216 bytes smem
+ptxas info    : Compile time = 37.363 ms
+===== probe_k8_t256_b4_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t256_b4_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t256_b4_h4
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 56 registers, used 0 barriers, 41216 bytes smem
+ptxas info    : Compile time = 33.658 ms
+===== probe_k8_t256_b6 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t256_b6' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t256_b6
+    56 bytes stack frame, 64 bytes spill stores, 84 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 56 bytes cumulative stack size, 41216 bytes smem
+ptxas info    : Compile time = 40.989 ms
+===== probe_k8_t256_b6_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t256_b6_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t256_b6_h2
+    48 bytes stack frame, 60 bytes spill stores, 80 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 48 bytes cumulative stack size, 41216 bytes smem
+ptxas info    : Compile time = 42.495 ms
+===== probe_k8_t256_b6_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t256_b6_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t256_b6_h3
+    56 bytes stack frame, 64 bytes spill stores, 84 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 56 bytes cumulative stack size, 41216 bytes smem
+ptxas info    : Compile time = 38.382 ms
+===== probe_k8_t256_b6_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t256_b6_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t256_b6_h4
+    56 bytes stack frame, 52 bytes spill stores, 76 bytes spill loads
+ptxas info    : Used 40 registers, used 0 barriers, 56 bytes cumulative stack size, 41216 bytes smem
+ptxas info    : Compile time = 38.604 ms
+===== probe_k8_t256_b8 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t256_b8' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t256_b8
+    104 bytes stack frame, 132 bytes spill stores, 184 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 104 bytes cumulative stack size, 41216 bytes smem
+ptxas info    : Compile time = 36.345 ms
+===== probe_k8_t256_b8_h2 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t256_b8_h2' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t256_b8_h2
+    104 bytes stack frame, 152 bytes spill stores, 204 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 104 bytes cumulative stack size, 41216 bytes smem
+ptxas info    : Compile time = 36.841 ms
+===== probe_k8_t256_b8_h3 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t256_b8_h3' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t256_b8_h3
+    112 bytes stack frame, 156 bytes spill stores, 204 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 112 bytes cumulative stack size, 41216 bytes smem
+ptxas info    : Compile time = 38.237 ms
+===== probe_k8_t256_b8_h4 (sm_103)
+ptxas info    : 0 bytes gmem
+ptxas info    : Compiling entry function 'probe_k8_t256_b8_h4' for 'sm_103'
+ptxas info    : Function properties for probe_k8_t256_b8_h4
+    152 bytes stack frame, 176 bytes spill stores, 208 bytes spill loads
+ptxas info    : Used 32 registers, used 0 barriers, 152 bytes cumulative stack size, 41216 bytes smem
+ptxas info    : Compile time = 41.596 ms

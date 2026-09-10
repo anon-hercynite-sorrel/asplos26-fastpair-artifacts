@@ -1,0 +1,19 @@
+op12_default OK 1456051 B
+op14_default OK 1413937 B
+fsst12_default OK 1506489 B
+op12_maxl1 OK 1509525 B
+op14_maxl1 OK 1467695 B
+fsst12_maxl1 OK 1552359 B
+op12_default_shmem_4tpt CAPTURE-VERIFIED onpair_shmem_4tpt
+op12_default_shmem_4tpt_split8read CAPTURE-VERIFIED onpair_shmem_4tpt_split8read
+op12_default_shmem_4tpt_shdict8 CAPTURE-VERIFIED onpair_shmem_4tpt_shdict8
+op12_default_shmem_4tpt_pdict CAPTURE-VERIFIED onpair_shmem_4tpt_pdict
+op12_default_shmem_4tpt_vdict CAPTURE-VERIFIED onpair_shmem_4tpt_vdict
+op12_default_shmem_4tpt_b128o12 CAPTURE-VERIFIED onpair_shmem_4tpt_b128o12
+op14_default_shmem_4tpt CAPTURE-VERIFIED onpair_shmem_4tpt
+op14_default_shmem_4tpt_split8read CAPTURE-VERIFIED onpair_shmem_4tpt_split8read
+op14_default_shmem_4tpt_shdict8 CAPTURE-VERIFIED onpair_shmem_4tpt_shdict8
+op14_default_shmem_4tpt_pdict NCU-NONE rc=1 inapplicable: padded dict needs 295168 B shared, over 102400 B cap
+op14_default_shmem_4tpt_vdict NCU-NONE rc=1 inapplicable: packed dict needs 128720 B shared, over 102400 B cap
+op14_default_shmem_4tpt_b128o12 CAPTURE-VERIFIED onpair_shmem_4tpt_b128o12
+fsst12_default NCU-SKIP no-vortex

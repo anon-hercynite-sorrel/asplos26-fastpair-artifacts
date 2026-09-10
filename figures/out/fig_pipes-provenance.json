@@ -1,0 +1,175 @@
+{
+  "theme_sha256": "8bdcf21f584d3a1efcafd25325c24f82c85e2e923c5031125f0ad561c9263b10",
+  "renderer_sha256": "8479d72c9f677567e90e4f45205c332770f90bdc060bada57fa25b5083bc35fd",
+  "inputs": {
+    "accepted.json": "1074906c186e56cd26f337516bda15110b95182f80e00ba1385e77e975314d1f",
+    "directions.json": "3d1cf3e29940c5cbe85b8da57222e1410fc4cfd9231ccb2e9c1a27ab96a7652a",
+    "evidence.tar.gz": "11a6f1af06be9897deb426161d1ccbd51651d306fc487afcb181c733e61a2ec5"
+  },
+  "order": [
+    "b300",
+    "h100",
+    "a100",
+    "rtxpro",
+    "l40s"
+  ],
+  "stack_bottom_to_top": [
+    "other",
+    "global_reads",
+    "global_writes",
+    "shared_reads",
+    "shared_writes"
+  ],
+  "legend_labels": {
+    "other": "L1 \u2013 other",
+    "global_reads": "L1 \u2013 global read",
+    "global_writes": "L1 \u2013 global write",
+    "shared_reads": "L1 \u2013 shared read",
+    "shared_writes": "L1 \u2013 shared write"
+  },
+  "style": {
+    "font_sizes_pt": {
+      "axis_label": 8.1,
+      "tick": 8.1,
+      "panel_title": 8.1,
+      "legend": 8.1,
+      "annot": 5.5,
+      "legend_dense": 8.1
+    },
+    "font_family": "DejaVu Sans",
+    "other_palette": "plasma",
+    "other_fill": "#310597",
+    "other_hatch": "",
+    "l2_hatch": "////",
+    "global_palette": "plasma",
+    "shared_palette": "plasma",
+    "context_colors": {
+      "l2": "#c6c6c6",
+      "dram": "#9d9d9d",
+      "compute": "#777777"
+    },
+    "context_palette_source": "luminance-preserving grayscale of plasma steps 1\u20133",
+    "context_lightness": {
+      "l2": 79.88121630968037,
+      "dram": 64.73680451372094,
+      "compute": 50.034438792538225
+    },
+    "context_hatches": {
+      "l2": "////",
+      "dram": "....",
+      "compute": "++++"
+    },
+    "context_border_width": 0,
+    "legend_handlelength": 1.5,
+    "legend_handleheight": 0.9,
+    "stack_colors": {
+      "other": "#310597",
+      "global_reads": "#8b0aa5",
+      "global_writes": "#cb4679",
+      "shared_reads": "#ef7e50",
+      "shared_writes": "#febb2b"
+    },
+    "lightness_space": "CIELAB L* from sRGB relative luminance",
+    "target_lightness_top_to_bottom": [
+      80.0,
+      65.0,
+      50.0,
+      35.0,
+      20.0
+    ],
+    "measured_lightness_top_to_bottom": [
+      80.0590199502534,
+      64.84462200470259,
+      50.046135431405744,
+      34.848067857281514,
+      20.027368112668633
+    ],
+    "five_step_palettes": {
+      "plasma": [
+        "#febb2b",
+        "#ef7e50",
+        "#cb4679",
+        "#8b0aa5",
+        "#310597"
+      ]
+    },
+    "hatch_linewidth": 0.35,
+    "print_width": "column"
+  },
+  "rows": {
+    "b300": {
+      "kernel": "onpair_ds_k6_t128_b8_s14",
+      "global_direction_method": "direct_lgds_ratio",
+      "l1_segments_peak_points": {
+        "global_reads": 27.654616234579482,
+        "global_writes": 5.375013499219602,
+        "shared_reads": 6.265193589093693,
+        "shared_writes": 54.412233109871096,
+        "other": 5.132943567236125
+      },
+      "l2_pct": 18.215,
+      "dram_pct": 24.0825,
+      "compute_pct": 50.15
+    },
+    "h100": {
+      "kernel": "onpair_dw_k7_t256_b4",
+      "global_direction_method": "direct_lgds_ratio",
+      "l1_segments_peak_points": {
+        "global_reads": 27.158835423760436,
+        "global_writes": 4.869104586329606,
+        "shared_reads": 4.606184447253328,
+        "shared_writes": 56.573832630431895,
+        "other": 5.802042912224729
+      },
+      "l2_pct": 48.2625,
+      "dram_pct": 47.91,
+      "compute_pct": 45.682500000000005
+    },
+    "a100": {
+      "kernel": "onpair_dw_k4_t128_b2",
+      "global_direction_method": "estimated_tag_ratio",
+      "l1_segments_peak_points": {
+        "global_reads": 29.642579580597523,
+        "global_writes": 3.4535487622296497,
+        "shared_reads": 4.879627319575158,
+        "shared_writes": 55.800526627675254,
+        "other": 5.223717709922412
+      },
+      "l2_pct": 41.8225,
+      "dram_pct": 59.525,
+      "compute_pct": 46.8025
+    },
+    "rtxpro": {
+      "kernel": "onpair_ds_k8_t128_b4_s12",
+      "global_direction_method": "direct_lgds_ratio",
+      "l1_segments_peak_points": {
+        "global_reads": 25.055933746206364,
+        "global_writes": 2.6303537123969924,
+        "shared_reads": 3.135377794598901,
+        "shared_writes": 29.26007040888421,
+        "other": 2.6232643379135334
+      },
+      "l2_pct": 57.3575,
+      "dram_pct": 89.80250000000001,
+      "compute_pct": 40.165
+    },
+    "l40s": {
+      "kernel": "onpair_dg_k8_t128_b2",
+      "global_direction_method": "estimated_tag_ratio",
+      "l1_segments_peak_points": {
+        "global_reads": 14.197824254878569,
+        "global_writes": 1.057036360914155,
+        "shared_reads": 1.7502452754075084,
+        "shared_writes": 16.702624929014757,
+        "other": 1.5147691797850138
+      },
+      "l2_pct": 35.765,
+      "dram_pct": 89.7425,
+      "compute_pct": 23.155
+    }
+  },
+  "paper_text_changed": false,
+  "note": "See experiments/pipes/README.md for A100/L40S estimates and capture acceptance.",
+  "output_pdf_sha256": "6e68a54f5373ae7a559738dc98819757951d7168fbe89fe86f4e5f41a3cd122a",
+  "output_png_sha256": "2e9ed0b70b3edd53132a54b5fc2ce0120e5a1aa7035027802f8a884c142de8f6"
+}

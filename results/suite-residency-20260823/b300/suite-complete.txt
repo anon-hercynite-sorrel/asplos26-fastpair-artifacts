@@ -1,0 +1,10 @@
+vortex_rev: 94905b572340e890eb6fa131b2ca0129b8792296
+columns: 3
+training_seed: 20260819
+stages_requested: MATERIALIZE RESIDENCY LADDER
+clocks: boost:full
+partial_corpus: 1 of 15 requested: 3
+partial_corpus_labels: windows url wikipedia
+stage_LADDER_rc: 0
+stage_RESIDENCY_rc: 0
+stage_MATERIALIZE_rc: 0

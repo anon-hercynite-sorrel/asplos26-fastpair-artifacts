@@ -1,0 +1,19 @@
+{
+  "name": "NVIDIA L40S",
+  "compute_capability": "8.9",
+  "multiprocessors": 142,
+  "max_threads_per_sm": 1536,
+  "max_warps_per_sm": 48,
+  "max_blocks_per_sm": 24,
+  "warp_size": 32,
+  "regs_per_sm": 65536,
+  "regs_per_block": 65536,
+  "shared_per_sm_bytes": 102400,
+  "shared_per_block_bytes": 49152,
+  "shared_per_block_optin_bytes": 101376,
+  "l2_bytes": 100663296,
+  "global_bytes": 47665709056,
+  "memory_bus_width_bits": 384,
+  "memory_clock_khz": 9001000,
+  "clock_khz": 2520000
+}

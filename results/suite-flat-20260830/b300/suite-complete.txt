@@ -1,0 +1,17 @@
+vortex_rev: 876c062b2e7cc69729339e0c1f1829cfdec0fe78
+columns: 15
+training_seed: 20260819
+sample_bytes: 1000000000
+clocks: boost:full
+stages_requested: DE SW ZSTDFRAMES
+stage_DE_rc: 0
+stage_SW_rc: 0
+stage_ZSTDFRAMES_rc: 0
+framing: flat
+gpu_iters: 100 (DE, SW); 300 (ZSTDFRAMES)
+notes: no GRID stage; this leg carries byte-oriented baselines only and cannot supply
+notes: the Section 3-4 statistics, which are defined over the GRID cells.
+bench_nvcomp_hw: campaign worktree, sweep_chunks[7] (876c062b2 carries [5])
+bench_nvcomp_sw: c8fa5200b, reads NVCOMP_PAYLOAD_BYTES (876c062b2 has no payload basis)
+bench_onpair_rs: 876c062b2 + byte-anchored Zstd frame axis, levels [-10, 3, 19]
+zstd_frames_columns: 14 in zstd_frames.json + l_shipinstruct measured separately at 5 levels

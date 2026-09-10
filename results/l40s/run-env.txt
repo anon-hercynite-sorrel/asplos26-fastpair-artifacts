@@ -1,0 +1,30 @@
+# FastPair L40S GPU-decode run environment (reconstructed)
+#
+# The L40S throughput sweep (results/l40s/) and the full NSight Compute cost-surface
+# capture (results/l40s-ncu/) were run on a Lambda Cloud L40S instance on 2026-06-26.
+# The on-box nvidia-smi / nvcc dump was not archived for this leg; the fields below are
+# reconstructed from the committed NCU artifacts (compute capability and host path) and
+# the NVIDIA L40S datasheet. The decode data itself is complete and byte-exact against
+# the CPU OnPair decoder; only this environment string was not captured.
+
+date_utc:     2026-06-26
+provider:     Lambda Cloud
+host:         <redacted-ephemeral-host>
+
+## GPU
+name:             NVIDIA L40S
+architecture:     Ada Lovelace (AD102)
+compute_cap:      8.9 (sm_89)            # confirmed: "CC" column in results/l40s-ncu/*_raw.csv
+memory:           48 GB GDDR6 with ECC   # NVIDIA L40S datasheet
+memory_bandwidth: 864 GB/s, vendor-rated # NVIDIA L40S datasheet (the paper's 0.86 TB/s)
+SM_count:         142                     # derived: 18,176 CUDA cores / 128 per SM
+
+## Toolchain (not archived for this leg)
+# Within the campaign range stated in the paper's methodology: CUDA 12.8-13.0 under a
+# 570- or 580-series driver. Profiling was enabled on the box (RmProfilingAdminOnly=0),
+# which is how the NCU --set full cost surface in results/l40s-ncu/ was captured.
+
+## Provenance
+# throughput:   results/l40s/onpair_summary_*.json  (kernel-only, inputs pre-staged in
+#               GDDR6, byte-exact vs CPU decoder, GB/s = min over decode_ns_iters)
+# cost surface: results/l40s-ncu/ncu_costsurface_*_details.csv  (NSight Compute --set full)

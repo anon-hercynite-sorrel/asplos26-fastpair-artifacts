@@ -1,0 +1,19 @@
+{
+  "name": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "compute_capability": "12.0",
+  "multiprocessors": 188,
+  "max_threads_per_sm": 1536,
+  "max_warps_per_sm": 48,
+  "max_blocks_per_sm": 24,
+  "warp_size": 32,
+  "regs_per_sm": 65536,
+  "regs_per_block": 65536,
+  "shared_per_sm_bytes": 102400,
+  "shared_per_block_bytes": 49152,
+  "shared_per_block_optin_bytes": 101376,
+  "l2_bytes": 134217728,
+  "global_bytes": 101973819392,
+  "memory_bus_width_bits": 512,
+  "memory_clock_khz": 12481000,
+  "clock_khz": 2430000
+}

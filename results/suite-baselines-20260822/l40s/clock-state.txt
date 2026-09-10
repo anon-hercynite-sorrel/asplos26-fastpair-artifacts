@@ -1,0 +1,19 @@
+vortex_rev: 94905b572340e890eb6fa131b2ca0129b8792296
+training_seed: 20260819
+kernel_order_seed: 20260819
+stages: MATERIALIZE SW
+clocks: boost:full
+NVIDIA L40S, 2520 MHz, 9001 MHz, 8.9
+throttle_field: clocks_event_reasons.active
+--- box facts
+NVIDIA L40S, Enabled, Enabled, Enabled, Disabled, [Requested functionality has been deprecated], 580.126.09, 95.02.66.00.02
+power_limits(limit,enforced,min,max): 350.00 W, 350.00 W, 100.00 W, 350.00 W
+compute_procs: 
+mem_pin: 9001 MHz
+policy_boost_released_at: 20:18:00
+locked_sm_mhz: none (boost/floating)
+sample: 2520 MHz, 9001 MHz, 39, 91.46 W, 0x0000000000000000  throttle=ok
+soak_comparators: 38C -> 35C in 30s (flat for 30s of 30s required)
+soak_comparators_curve_c: 39,37,37,36,36,35
+sample[post-soak-comparators]: 210 MHz, 9001 MHz, 35, 61.91 W, 0x0000000000000001  throttle=ok (benign,idle)
+sample[post-suite]: 2520 MHz, 9001 MHz, 40, 151.70 W, 0x0000000000000000  throttle=ok

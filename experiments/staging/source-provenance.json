@@ -1,0 +1,12 @@
+{
+  "harness_base_commit": "f6d81878715bf322a0917ada32bcf40adffbd3ef",
+  "paths": {
+    "vortex-cuda/kernels/src/onpair_shmem_4tpt_pdict.cu": "14b3cc2057d338bcc484a92da6773ddfb87e48549ba6be0356a141ae9f839d2e",
+    "vortex-cuda/kernels/src/onpair_shmem_4tpt_vdict.cu": "d5fa2952319c4b329c6a39e674a54b128b3b1adfabea65c5374a2728cbbd2172",
+    "vortex-cuda/kernels/src/onpair_shmem_4tpt_shdict8.cu": "0d254cde47ff2560ac01ed97bddecb89c74625ab31dddb094ad974b9ebb923a3",
+    "vortex-cuda/kernels/src/onpair_shmem_4tpt_review_t256b2.cu": "b865c277cd4e9bbf64e3ae5f049985cb557ef6c38cb900df757a2e1132fb53a0",
+    "vortex-cuda/kernels/src/_archive/onpair_shmem_4tpt_pdict.cu": "40a4c32b07d4bd77ff12aa5a273a82eb16c00d8fa35ccf092bcb1a33bf5a60a9",
+    "vortex-cuda/kernels/src/_archive/onpair_shmem_4tpt_vdict.cu": "490dcc57c86e07f45c1e1477b9e51b1244c75bf6536341d490bdb711a9a37245",
+    "vortex-cuda/kernels/src/_archive/onpair_shmem_4tpt_shdict8.cu": "1c6b10fbe5c2e8a427a513769ac5179eacfa8f64fd2672781690b975f19227da"
+  }
+}

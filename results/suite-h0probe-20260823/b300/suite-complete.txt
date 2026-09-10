@@ -1,0 +1,6 @@
+vortex_rev: db7946a1b2404616fc2b02976bf5bea8005791fb
+columns: 15
+training_seed: 20260819
+stages_requested: LADDER
+clocks: boost:full
+stage_LADDER_rc: 0

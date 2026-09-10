@@ -1,0 +1,12 @@
+vortex_rev: 94905b572340e890eb6fa131b2ca0129b8792296
+columns: 15
+training_seed: 20260819
+stages_requested: MATERIALIZE GRID LADDER
+clocks: boost:full max:full 75%:prod 55%:prod 40%:prod
+stage_GRID_sm960_rc: 0
+stage_LADDER_rc: 0
+stage_GRID_boost_rc: 0
+stage_GRID_sm1327_rc: 0
+stage_GRID_sm1815_rc: 0
+stage_GRID_sm2422_rc: 0
+stage_MATERIALIZE_rc: 0

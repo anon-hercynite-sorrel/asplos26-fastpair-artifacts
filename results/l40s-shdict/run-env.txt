@@ -1,0 +1,42 @@
+# OnPair-GPU GPU-decode run environment
+date_utc:    2026-07-27T18:03:27Z
+host:        <redacted-ephemeral-host>
+vortex_rev:  fe4a84d65
+
+## GPU (name, mem, compute capability, driver)
+name, memory.total [MiB], compute_cap, driver_version
+NVIDIA L40S, 46068 MiB, 8.9, 580.126.09
+
+## nvidia-smi
+Mon Jul 27 18:03:27 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.126.09             Driver Version: 580.126.09     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA L40S                    On  |   00000000:8D:00.0 Off |                    0 |
+| N/A   32C    P8             26W /  350W |       0MiB /  46068MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+## nvcc
+/home/ubuntu/work/onpair-bench.sh: line 44: nvcc: command not found
+nvcc not on PATH yet
+
+## CPU / memory
+nproc: 16
+CPU(s):                               16
+Model name:                           AMD EPYC-Genoa Processor
+               total        used        free      shared  buff/cache   available
+Mem:            94Gi       1.4Gi        92Gi       1.3Mi       761Mi        92Gi
+Swap:             0B          0B          0B

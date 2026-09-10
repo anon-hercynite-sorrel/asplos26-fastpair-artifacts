@@ -1,0 +1,8 @@
+total 5628
+drwxrwxr-x  2 ubuntu ubuntu    4096 Sep  6 17:40 .
+drwxrwxr-x 52 ubuntu ubuntu    4096 Sep  6 17:40 ..
+-rwxrwxr-x  1 ubuntu ubuntu 1146248 Sep  6 17:40 regen_ctl_k4
+-rwxrwxr-x  1 ubuntu ubuntu 1150416 Sep  6 17:40 regen_k4_w16
+-rwxrwxr-x  1 ubuntu ubuntu 1150416 Sep  6 17:40 regen_k4_w8
+-rwxrwxr-x  1 ubuntu ubuntu 1150416 Sep  6 17:40 regen_k6_w16
+-rwxrwxr-x  1 ubuntu ubuntu 1154512 Sep  6 17:40 regen_k6_w8

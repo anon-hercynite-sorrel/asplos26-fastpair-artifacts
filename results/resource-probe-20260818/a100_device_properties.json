@@ -1,0 +1,19 @@
+{
+  "name": "NVIDIA A100-SXM4-40GB",
+  "compute_capability": "8.0",
+  "multiprocessors": 108,
+  "max_threads_per_sm": 2048,
+  "max_warps_per_sm": 64,
+  "max_blocks_per_sm": 32,
+  "warp_size": 32,
+  "regs_per_sm": 65536,
+  "regs_per_block": 65536,
+  "shared_per_sm_bytes": 167936,
+  "shared_per_block_bytes": 49152,
+  "shared_per_block_optin_bytes": 166912,
+  "l2_bytes": 41943040,
+  "global_bytes": 42404806656,
+  "memory_bus_width_bits": 5120,
+  "memory_clock_khz": 1215000,
+  "clock_khz": 1410000
+}

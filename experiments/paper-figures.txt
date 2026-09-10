@@ -1,0 +1,25 @@
+# The figures the paper prints, one per line, matching figures/<name>.py.
+#
+# WHY THIS FILE EXISTS, AND WHY IT CANNOT ROT. analyze.sh used to derive this set from the
+# manuscript's \includegraphics calls, because a hand-maintained list had drifted until it
+# named the retired figure family and rebuilt two of the nine figures the paper prints. That
+# fix worked but made the artifact unable to verify itself: with no manuscript checkout,
+# analyze.sh aborted before rebuilding anything, so a reader holding only this repository
+# could not run it at all.
+#
+# So the list is committed here AND still derived from the paper when a checkout is present:
+# analyze.sh compares the two and FAILS on any difference. The list cannot go stale while
+# anyone runs the script beside the manuscript, and the artifact stands alone without it.
+# Regenerate with:
+#   grep -ho 'includegraphics\[[^]]*\]{[^}]*}' $PAPER_DIR/sections/*.tex $PAPER_DIR/main.tex \
+#     | sed -e 's/.*{//' -e 's/}$//' -e 's#.*/##' -e 's/\.pdf$//' | sort -u
+
+fig_gatherwidth
+fig_grid
+fig_hoist
+fig_lenpredict
+fig_perf_gen
+fig_perf_real
+fig_pipes
+fig_teaser
+fig_tokendist

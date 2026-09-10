@@ -1,0 +1,10 @@
+clickbench_MobilePhoneModel_b12_split8read exit=0 rows=1553 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_split8read Static Shared Memory Per Block=33.28B
+clickbench_MobilePhoneModel_b12_onpair_shmem_4tpt exit=0 rows=1569 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt Static Shared Memory Per Block=33.28B
+clickbench_Referer_b12_split8read exit=0 rows=1569 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_split8read Static Shared Memory Per Block=33.28B
+clickbench_Referer_b12_onpair_shmem_4tpt exit=0 rows=1585 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt Static Shared Memory Per Block=33.28B
+clickbench_URL_b12_split8read exit=0 rows=1569 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_split8read Static Shared Memory Per Block=33.28B
+clickbench_URL_b12_onpair_shmem_4tpt exit=0 rows=1585 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt Static Shared Memory Per Block=33.28B
+synthetic_url_b12_split8read exit=0 rows=1569 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_split8read Static Shared Memory Per Block=33.28B
+synthetic_url_b12_onpair_shmem_4tpt exit=0 rows=1601 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt Static Shared Memory Per Block=33.28B
+clickbench_MobilePhoneModel_b12_split4read exit=0 rows=1553 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_split4read Static Shared Memory Per Block=33.28B
+clickbench_URL_b12_split4read exit=0 rows=1585 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_split4read Static Shared Memory Per Block=33.28B

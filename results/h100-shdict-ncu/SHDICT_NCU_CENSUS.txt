@@ -1,0 +1,16 @@
+clickbench_URL_b12_split8read exit=0 rows=1569 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_split8read Static Shared Memory Per Block=33.28B
+clickbench_URL_b12_shdict8 exit=0 rows=1649 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_shdict8 Dynamic Shared Memory Per Block=53.50B
+clickbench_URL_b12_pdict exit=0 rows=1617 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_pdict Dynamic Shared Memory Per Block=86.27B
+clickbench_URL_b12_vdict exit=0 rows=1649 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_vdict Dynamic Shared Memory Per Block=37.98B
+clickbench_URL_b14_split8read exit=0 rows=1585 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_split8read Static Shared Memory Per Block=33.28B
+clickbench_URL_b14_shdict8 exit=0 rows=1617 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_shdict8 Dynamic Shared Memory Per Block=164.10B
+tpch-sf10_l_comment_b12_split8read exit=0 rows=1638 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_split8read Static Shared Memory Per Block=33.28B
+tpch-sf10_l_comment_b12_shdict8 exit=0 rows=1644 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_shdict8 Dynamic Shared Memory Per Block=52.88B
+tpch-sf10_l_comment_b12_pdict exit=0 rows=1633 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_pdict Dynamic Shared Memory Per Block=85.07B
+tpch-sf10_l_comment_b12_vdict exit=0 rows=1674 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_vdict Dynamic Shared Memory Per Block=49.15B
+tpch-sf10_l_comment_b14_split8read exit=0 rows=1601 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_split8read Static Shared Memory Per Block=33.28B
+tpch-sf10_l_comment_b14_shdict8 exit=0 rows=1617 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_shdict8 Dynamic Shared Memory Per Block=164.10B
+fineweb_text_b12_split8read exit=0 rows=1569 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_split8read Static Shared Memory Per Block=33.28B
+fineweb_text_b12_shdict8 exit=0 rows=1633 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_shdict8 Dynamic Shared Memory Per Block=53.50B
+fineweb_text_b12_pdict exit=0 rows=1617 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_pdict Dynamic Shared Memory Per Block=86.27B
+fineweb_text_b12_vdict exit=0 rows=1601 CAPTURE-VERIFIED kernel=onpair_shmem_4tpt_vdict Dynamic Shared Memory Per Block=34.26B
